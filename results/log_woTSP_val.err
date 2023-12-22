@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "reconstructe.py", line 133, in <module>
+    reconstructe()
+  File "reconstructe.py", line 111, in reconstructe
+    reconstructions = eval(args, model, data_loader)
+  File "reconstructe.py", line 87, in eval
+    psnr_l.append(psnr(target.numpy(), recons.numpy()))
+NameError: name 'target' is not defined

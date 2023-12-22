@@ -1,0 +1,601 @@
+INFO:root:Namespace(FOV=0.2, G_max=40, SNR=False, S_max=200, TSP=True, TSP_epoch=20, a_max=0.17030400000000004, acc_weight=0.1, batch_size=24, checkpoint='summary/8/radial_TSP_0.001_0.1_0.1/model.pt', data_parallel=True, data_path=PosixPath('/mnt/shared/home/b31xs3'), decimation_rate=10, device='cuda', drop_prob=0.0, dt=1e-05, exp_dir='summary/8/radial_TSP_0.001_0.1_0.1', gamma=42576, initialization='radial', interp_gap=1, lr=0.001, lr_gamma=0.01, lr_step_size=30, n_shots=8, num_chans=32, num_epochs=300, num_pools=4, rec_weight=1, report_interval=100, resolution=320, resume=False, sample_rate=1.0, seed=42, sub_lr=0.001, test_name='8/radial_TSP_0.001_0.1_0.1', trajectory_learning='1', v_max=3.40608, vel_weight=0.1, weight_decay=0.0)
+INFO:root:Epoch = [  0/300] Iter = [   0/  70] Loss = 0.7527 Avg Loss = 0.7527 rec_loss: 0.7527, vel_loss: 2.191e-06, acc_loss: 2.191e-06
+INFO:root:Epoch = [   0/ 300] TrainLoss = 0.5363 DevLoss = 0.2845 TrainTime = 87.3572s DevTime = 10.4588s
+INFO:root:Epoch = [  1/300] Iter = [   0/  70] Loss = 0.2597 Avg Loss = 0.2597 rec_loss: 0.2597, vel_loss: 2.191e-06, acc_loss: 2.191e-06
+INFO:root:Epoch = [   1/ 300] TrainLoss = 0.2598 DevLoss = 0.2673 TrainTime = 82.3654s DevTime = 10.2016s
+INFO:root:Epoch = [  2/300] Iter = [   0/  70] Loss = 0.2497 Avg Loss = 0.2497 rec_loss: 0.2497, vel_loss: 2.191e-06, acc_loss: 0.1574
+INFO:root:Epoch = [   2/ 300] TrainLoss = 0.2426 DevLoss = 0.241 TrainTime = 83.2497s DevTime = 10.7676s
+INFO:root:Epoch = [  3/300] Iter = [   0/  70] Loss = 0.2325 Avg Loss = 0.2325 rec_loss: 0.2325, vel_loss: 2.191e-06, acc_loss: 0.3838
+INFO:root:Epoch = [   3/ 300] TrainLoss = 0.2269 DevLoss = 0.2348 TrainTime = 82.5832s DevTime = 11.0087s
+INFO:root:Epoch = [  4/300] Iter = [   0/  70] Loss = 0.2125 Avg Loss = 0.2125 rec_loss: 0.2125, vel_loss: 2.191e-06, acc_loss: 0.5783
+INFO:root:Epoch = [   4/ 300] TrainLoss = 0.212 DevLoss = 0.2165 TrainTime = 83.7282s DevTime = 10.2198s
+INFO:root:Epoch = [  5/300] Iter = [   0/  70] Loss = 0.216 Avg Loss = 0.216 rec_loss: 0.216, vel_loss: 2.191e-06, acc_loss: 0.7899
+INFO:root:Epoch = [   5/ 300] TrainLoss = 0.2097 DevLoss = 0.2215 TrainTime = 80.9212s DevTime = 10.6309s
+INFO:root:Epoch = [  6/300] Iter = [   0/  70] Loss = 0.1971 Avg Loss = 0.1971 rec_loss: 0.1971, vel_loss: 2.191e-06, acc_loss: 1.126
+INFO:root:Epoch = [   6/ 300] TrainLoss = 0.1964 DevLoss = 0.2073 TrainTime = 83.2176s DevTime = 10.7829s
+INFO:root:Epoch = [  7/300] Iter = [   0/  70] Loss = 0.1899 Avg Loss = 0.1899 rec_loss: 0.1899, vel_loss: 2.191e-06, acc_loss: 1.656
+INFO:root:Epoch = [   7/ 300] TrainLoss = 0.1894 DevLoss = 0.2008 TrainTime = 82.3408s DevTime = 10.5374s
+INFO:root:Epoch = [  8/300] Iter = [   0/  70] Loss = 0.1821 Avg Loss = 0.1821 rec_loss: 0.1821, vel_loss: 2.191e-06, acc_loss: 2.315
+INFO:root:Epoch = [   8/ 300] TrainLoss = 0.1828 DevLoss = 0.1956 TrainTime = 82.6843s DevTime = 10.4890s
+INFO:root:Epoch = [  9/300] Iter = [   0/  70] Loss = 0.1692 Avg Loss = 0.1692 rec_loss: 0.1692, vel_loss: 2.191e-06, acc_loss: 3.041
+INFO:root:Epoch = [   9/ 300] TrainLoss = 0.1755 DevLoss = 0.1949 TrainTime = 81.8153s DevTime = 11.0356s
+INFO:root:Epoch = [ 10/300] Iter = [   0/  70] Loss = 0.1683 Avg Loss = 0.1683 rec_loss: 0.1683, vel_loss: 2.191e-06, acc_loss: 3.735
+INFO:root:Epoch = [  10/ 300] TrainLoss = 0.1726 DevLoss = 0.1908 TrainTime = 81.1702s DevTime = 10.4891s
+INFO:root:Epoch = [ 11/300] Iter = [   0/  70] Loss = 0.1664 Avg Loss = 0.1664 rec_loss: 0.1664, vel_loss: 2.191e-06, acc_loss: 4.414
+INFO:root:Epoch = [  11/ 300] TrainLoss = 0.1712 DevLoss = 0.1904 TrainTime = 82.5367s DevTime = 10.8530s
+INFO:root:Epoch = [ 12/300] Iter = [   0/  70] Loss = 0.1652 Avg Loss = 0.1652 rec_loss: 0.1652, vel_loss: 2.191e-06, acc_loss: 5.142
+INFO:root:Epoch = [  12/ 300] TrainLoss = 0.1695 DevLoss = 0.1855 TrainTime = 81.7428s DevTime = 10.6940s
+INFO:root:Epoch = [ 13/300] Iter = [   0/  70] Loss = 0.1712 Avg Loss = 0.1712 rec_loss: 0.1712, vel_loss: 2.191e-06, acc_loss: 5.872
+INFO:root:Epoch = [  13/ 300] TrainLoss = 0.1697 DevLoss = 0.185 TrainTime = 81.8377s DevTime = 10.2459s
+INFO:root:Epoch = [ 14/300] Iter = [   0/  70] Loss = 0.1759 Avg Loss = 0.1759 rec_loss: 0.1759, vel_loss: 2.191e-06, acc_loss: 6.717
+INFO:root:Epoch = [  14/ 300] TrainLoss = 0.1702 DevLoss = 0.1819 TrainTime = 82.3699s DevTime = 10.1749s
+INFO:root:Epoch = [ 15/300] Iter = [   0/  70] Loss = 0.1623 Avg Loss = 0.1623 rec_loss: 0.1623, vel_loss: 2.191e-06, acc_loss: 7.712
+INFO:root:Epoch = [  15/ 300] TrainLoss = 0.1627 DevLoss = 0.1775 TrainTime = 83.0232s DevTime = 10.7681s
+INFO:root:Epoch = [ 16/300] Iter = [   0/  70] Loss = 0.1517 Avg Loss = 0.1517 rec_loss: 0.1517, vel_loss: 2.191e-06, acc_loss: 8.836
+INFO:root:Epoch = [  16/ 300] TrainLoss = 0.156 DevLoss = 0.1749 TrainTime = 82.5380s DevTime = 10.8784s
+INFO:root:Epoch = [ 17/300] Iter = [   0/  70] Loss = 0.1665 Avg Loss = 0.1665 rec_loss: 0.1665, vel_loss: 2.191e-06, acc_loss: 10.08
+INFO:root:Epoch = [  17/ 300] TrainLoss = 0.1613 DevLoss = 0.1732 TrainTime = 82.9194s DevTime = 11.2778s
+INFO:root:Epoch = [ 18/300] Iter = [   0/  70] Loss = 0.1492 Avg Loss = 0.1492 rec_loss: 0.1492, vel_loss: 2.191e-06, acc_loss: 11.46
+INFO:root:Epoch = [  18/ 300] TrainLoss = 0.1514 DevLoss = 0.1703 TrainTime = 83.1313s DevTime = 10.8710s
+INFO:root:Epoch = [ 19/300] Iter = [   0/  70] Loss = 0.1595 Avg Loss = 0.1595 rec_loss: 0.1595, vel_loss: 2.191e-06, acc_loss: 12.99
+INFO:root:Epoch = [  19/ 300] TrainLoss = 0.1568 DevLoss = 0.1724 TrainTime = 82.5892s DevTime = 10.8325s
+INFO:root:Epoch = [ 20/300] Iter = [   0/  70] Loss = 0.2207 Avg Loss = 0.2207 rec_loss: 0.1998, vel_loss: 14.72, acc_loss: 6.243
+INFO:root:Epoch = [  20/ 300] TrainLoss = 0.2085 DevLoss = 0.1883 TrainTime = 84.7631s DevTime = 11.4101s
+INFO:root:Epoch = [ 21/300] Iter = [   0/  70] Loss = 0.187 Avg Loss = 0.187 rec_loss: 0.1658, vel_loss: 14.99, acc_loss: 6.225
+INFO:root:Epoch = [  21/ 300] TrainLoss = 0.1876 DevLoss = 0.1798 TrainTime = 83.2068s DevTime = 10.6002s
+INFO:root:Epoch = [ 22/300] Iter = [   0/  70] Loss = 0.186 Avg Loss = 0.186 rec_loss: 0.1645, vel_loss: 15.34, acc_loss: 6.227
+INFO:root:Epoch = [  22/ 300] TrainLoss = 0.1851 DevLoss = 0.1781 TrainTime = 85.9239s DevTime = 11.1935s
+INFO:root:Epoch = [ 23/300] Iter = [   0/  70] Loss = 0.1676 Avg Loss = 0.1676 rec_loss: 0.1456, vel_loss: 15.71, acc_loss: 6.237
+INFO:root:Epoch = [  23/ 300] TrainLoss = 0.1756 DevLoss = 0.1789 TrainTime = 85.0964s DevTime = 10.5745s
+INFO:root:Epoch = [ 24/300] Iter = [   0/  70] Loss = 0.1715 Avg Loss = 0.1715 rec_loss: 0.1491, vel_loss: 16.09, acc_loss: 6.251
+INFO:root:Epoch = [  24/ 300] TrainLoss = 0.1765 DevLoss = 0.1774 TrainTime = 86.1753s DevTime = 11.3277s
+INFO:root:Epoch = [ 25/300] Iter = [   0/  70] Loss = 0.1745 Avg Loss = 0.1745 rec_loss: 0.1517, vel_loss: 16.49, acc_loss: 6.266
+INFO:root:Epoch = [  25/ 300] TrainLoss = 0.1766 DevLoss = 0.1722 TrainTime = 85.0855s DevTime = 10.7342s
+INFO:root:Epoch = [ 26/300] Iter = [   0/  70] Loss = 0.1746 Avg Loss = 0.1746 rec_loss: 0.1514, vel_loss: 16.89, acc_loss: 6.281
+INFO:root:Epoch = [  26/ 300] TrainLoss = 0.1766 DevLoss = 0.1726 TrainTime = 84.7877s DevTime = 11.2851s
+INFO:root:Epoch = [ 27/300] Iter = [   0/  70] Loss = 0.181 Avg Loss = 0.181 rec_loss: 0.1574, vel_loss: 17.31, acc_loss: 6.298
+INFO:root:Epoch = [  27/ 300] TrainLoss = 0.1802 DevLoss = 0.1739 TrainTime = 84.5831s DevTime = 10.9319s
+INFO:root:Epoch = [ 28/300] Iter = [   0/  70] Loss = 0.1851 Avg Loss = 0.1851 rec_loss: 0.1611, vel_loss: 17.72, acc_loss: 6.316
+INFO:root:Epoch = [  28/ 300] TrainLoss = 0.1816 DevLoss = 0.1719 TrainTime = 85.3385s DevTime = 10.9270s
+INFO:root:Epoch = [ 29/300] Iter = [   0/  70] Loss = 0.17 Avg Loss = 0.17 rec_loss: 0.1456, vel_loss: 18.14, acc_loss: 6.336
+INFO:root:Epoch = [  29/ 300] TrainLoss = 0.1733 DevLoss = 0.1724 TrainTime = 85.0927s DevTime = 10.8303s
+INFO:root:Epoch = [ 30/300] Iter = [   0/  70] Loss = 0.1922 Avg Loss = 0.1922 rec_loss: 0.1673, vel_loss: 18.57, acc_loss: 6.358
+INFO:root:Epoch = [  30/ 300] TrainLoss = 0.184 DevLoss = 0.1718 TrainTime = 84.3510s DevTime = 10.4019s
+INFO:root:Epoch = [ 31/300] Iter = [   0/  70] Loss = 0.1808 Avg Loss = 0.1808 rec_loss: 0.156, vel_loss: 18.5, acc_loss: 6.337
+INFO:root:Epoch = [  31/ 300] TrainLoss = 0.1773 DevLoss = 0.168 TrainTime = 85.2549s DevTime = 10.5864s
+INFO:root:Epoch = [ 32/300] Iter = [   0/  70] Loss = 0.1811 Avg Loss = 0.1811 rec_loss: 0.1563, vel_loss: 18.43, acc_loss: 6.318
+INFO:root:Epoch = [  32/ 300] TrainLoss = 0.1775 DevLoss = 0.1707 TrainTime = 85.3261s DevTime = 11.0124s
+INFO:root:Epoch = [ 33/300] Iter = [   0/  70] Loss = 0.1663 Avg Loss = 0.1663 rec_loss: 0.1416, vel_loss: 18.37, acc_loss: 6.298
+INFO:root:Epoch = [  33/ 300] TrainLoss = 0.1696 DevLoss = 0.1709 TrainTime = 85.3101s DevTime = 10.9596s
+INFO:root:Epoch = [ 34/300] Iter = [   0/  70] Loss = 0.174 Avg Loss = 0.174 rec_loss: 0.1495, vel_loss: 18.31, acc_loss: 6.279
+INFO:root:Epoch = [  34/ 300] TrainLoss = 0.1727 DevLoss = 0.1685 TrainTime = 84.7377s DevTime = 10.5781s
+INFO:root:Epoch = [ 35/300] Iter = [   0/  70] Loss = 0.1667 Avg Loss = 0.1667 rec_loss: 0.1416, vel_loss: 18.75, acc_loss: 6.303
+INFO:root:Epoch = [  35/ 300] TrainLoss = 0.1694 DevLoss = 0.1698 TrainTime = 85.0337s DevTime = 11.1029s
+INFO:root:Epoch = [ 36/300] Iter = [   0/  70] Loss = 0.1749 Avg Loss = 0.1749 rec_loss: 0.1499, vel_loss: 18.69, acc_loss: 6.283
+INFO:root:Epoch = [  36/ 300] TrainLoss = 0.1739 DevLoss = 0.1728 TrainTime = 84.7516s DevTime = 10.8479s
+INFO:root:Epoch = [ 37/300] Iter = [   0/  70] Loss = 0.1543 Avg Loss = 0.1543 rec_loss: 0.1294, vel_loss: 18.63, acc_loss: 6.264
+INFO:root:Epoch = [  37/ 300] TrainLoss = 0.1627 DevLoss = 0.1672 TrainTime = 85.3683s DevTime = 11.0708s
+INFO:root:Epoch = [ 38/300] Iter = [   0/  70] Loss = 0.1728 Avg Loss = 0.1728 rec_loss: 0.148, vel_loss: 18.57, acc_loss: 6.246
+INFO:root:Epoch = [  38/ 300] TrainLoss = 0.171 DevLoss = 0.1692 TrainTime = 84.2142s DevTime = 11.0688s
+INFO:root:Epoch = [ 39/300] Iter = [   0/  70] Loss = 0.1679 Avg Loss = 0.1679 rec_loss: 0.1431, vel_loss: 18.51, acc_loss: 6.228
+INFO:root:Epoch = [  39/ 300] TrainLoss = 0.1679 DevLoss = 0.1669 TrainTime = 84.8850s DevTime = 10.9996s
+INFO:root:Epoch = [ 40/300] Iter = [   0/  70] Loss = 0.3854 Avg Loss = 0.3854 rec_loss: 0.1388, vel_loss: 18.46, acc_loss: 6.21
+INFO:root:Epoch = [  40/ 300] TrainLoss = 0.3867 DevLoss = 0.1675 TrainTime = 86.1117s DevTime = 11.0460s
+INFO:root:Epoch = [ 41/300] Iter = [   0/  70] Loss = 0.3826 Avg Loss = 0.3826 rec_loss: 0.1385, vel_loss: 18.25, acc_loss: 6.15
+INFO:root:Epoch = [  41/ 300] TrainLoss = 0.384 DevLoss = 0.1646 TrainTime = 85.5972s DevTime = 10.8565s
+INFO:root:Epoch = [ 42/300] Iter = [   0/  70] Loss = 0.3848 Avg Loss = 0.3848 rec_loss: 0.1425, vel_loss: 18.12, acc_loss: 6.112
+INFO:root:Epoch = [  42/ 300] TrainLoss = 0.3836 DevLoss = 0.164 TrainTime = 84.2334s DevTime = 11.2192s
+INFO:root:Epoch = [ 43/300] Iter = [   0/  70] Loss = 2.523 Avg Loss = 2.523 rec_loss: 0.1302, vel_loss: 17.33, acc_loss: 6.591
+INFO:root:Epoch = [  43/ 300] TrainLoss = 2.514 DevLoss = 0.1652 TrainTime = 85.6712s DevTime = 10.9023s
+INFO:root:Epoch = [ 44/300] Iter = [   0/  70] Loss = 2.49 Avg Loss = 2.49 rec_loss: 0.1439, vel_loss: 17.09, acc_loss: 6.367
+INFO:root:Epoch = [  44/ 300] TrainLoss = 2.48 DevLoss = 0.1629 TrainTime = 84.9850s DevTime = 10.6135s
+INFO:root:Epoch = [ 45/300] Iter = [   0/  70] Loss = 23.32 Avg Loss = 23.32 rec_loss: 0.1412, vel_loss: 16.95, acc_loss: 6.235
+INFO:root:Epoch = [  45/ 300] TrainLoss = 23.08 DevLoss = 0.165 TrainTime = 81.2577s DevTime = 11.0787s
+INFO:root:Epoch = [ 46/300] Iter = [   0/  70] Loss = 22.59 Avg Loss = 22.59 rec_loss: 0.146, vel_loss: 16.72, acc_loss: 5.724
+INFO:root:Epoch = [  46/ 300] TrainLoss = 22.5 DevLoss = 0.16 TrainTime = 82.2602s DevTime = 11.0589s
+INFO:root:Epoch = [ 47/300] Iter = [   0/  70] Loss = 22.27 Avg Loss = 22.27 rec_loss: 0.1337, vel_loss: 16.59, acc_loss: 5.548
+INFO:root:Epoch = [  47/ 300] TrainLoss = 22.21 DevLoss = 0.1603 TrainTime = 83.6794s DevTime = 10.6566s
+INFO:root:Epoch = [ 48/300] Iter = [   0/  70] Loss = 22.07 Avg Loss = 22.07 rec_loss: 0.1417, vel_loss: 16.49, acc_loss: 5.438
+INFO:root:Epoch = [  48/ 300] TrainLoss = 22.02 DevLoss = 0.1604 TrainTime = 80.8453s DevTime = 11.1181s
+INFO:root:Epoch = [ 49/300] Iter = [   0/  70] Loss = 21.89 Avg Loss = 21.89 rec_loss: 0.1315, vel_loss: 16.41, acc_loss: 5.353
+INFO:root:Epoch = [  49/ 300] TrainLoss = 21.85 DevLoss = 0.1573 TrainTime = 83.1131s DevTime = 10.3511s
+INFO:root:Epoch = [ 50/300] Iter = [   0/  70] Loss = 21.75 Avg Loss = 21.75 rec_loss: 0.1321, vel_loss: 16.33, acc_loss: 5.282
+INFO:root:Epoch = [  50/ 300] TrainLoss = 21.71 DevLoss = 0.1526 TrainTime = 82.4197s DevTime = 10.8209s
+INFO:root:Epoch = [ 51/300] Iter = [   0/  70] Loss = 21.61 Avg Loss = 21.61 rec_loss: 0.1248, vel_loss: 16.26, acc_loss: 5.223
+INFO:root:Epoch = [  51/ 300] TrainLoss = 21.58 DevLoss = 0.1527 TrainTime = 82.6330s DevTime = 10.3879s
+INFO:root:Epoch = [ 52/300] Iter = [   0/  70] Loss = 21.49 Avg Loss = 21.49 rec_loss: 0.1303, vel_loss: 16.19, acc_loss: 5.171
+INFO:root:Epoch = [  52/ 300] TrainLoss = 21.46 DevLoss = 0.1547 TrainTime = 81.8334s DevTime = 10.4768s
+INFO:root:Epoch = [ 53/300] Iter = [   0/  70] Loss = 21.36 Avg Loss = 21.36 rec_loss: 0.1215, vel_loss: 16.12, acc_loss: 5.124
+INFO:root:Epoch = [  53/ 300] TrainLoss = 21.34 DevLoss = 0.1531 TrainTime = 82.2153s DevTime = 10.5072s
+INFO:root:Epoch = [ 54/300] Iter = [   0/  70] Loss = 21.25 Avg Loss = 21.25 rec_loss: 0.1203, vel_loss: 16.05, acc_loss: 5.081
+INFO:root:Epoch = [  54/ 300] TrainLoss = 21.23 DevLoss = 0.1528 TrainTime = 80.9083s DevTime = 10.7252s
+INFO:root:Epoch = [ 55/300] Iter = [   0/  70] Loss = 21.14 Avg Loss = 21.14 rec_loss: 0.1191, vel_loss: 15.99, acc_loss: 5.039
+INFO:root:Epoch = [  55/ 300] TrainLoss = 21.12 DevLoss = 0.1537 TrainTime = 82.6174s DevTime = 10.4680s
+INFO:root:Epoch = [ 56/300] Iter = [   0/  70] Loss = 21.05 Avg Loss = 21.05 rec_loss: 0.1252, vel_loss: 15.92, acc_loss: 5
+INFO:root:Epoch = [  56/ 300] TrainLoss = 21.02 DevLoss = 0.1539 TrainTime = 82.5971s DevTime = 10.7675s
+INFO:root:Epoch = [ 57/300] Iter = [   0/  70] Loss = 20.95 Avg Loss = 20.95 rec_loss: 0.1288, vel_loss: 15.86, acc_loss: 4.962
+INFO:root:Epoch = [  57/ 300] TrainLoss = 20.92 DevLoss = 0.1525 TrainTime = 83.0560s DevTime = 10.3814s
+INFO:root:Epoch = [ 58/300] Iter = [   0/  70] Loss = 20.85 Avg Loss = 20.85 rec_loss: 0.1252, vel_loss: 15.8, acc_loss: 4.925
+INFO:root:Epoch = [  58/ 300] TrainLoss = 20.82 DevLoss = 0.1527 TrainTime = 83.6478s DevTime = 10.5889s
+INFO:root:Epoch = [ 59/300] Iter = [   0/  70] Loss = 20.74 Avg Loss = 20.74 rec_loss: 0.1181, vel_loss: 15.74, acc_loss: 4.889
+INFO:root:Epoch = [  59/ 300] TrainLoss = 20.72 DevLoss = 0.1497 TrainTime = 81.6963s DevTime = 10.9236s
+INFO:root:Epoch = [ 60/300] Iter = [   0/  70] Loss = 20.65 Avg Loss = 20.65 rec_loss: 0.1196, vel_loss: 15.68, acc_loss: 4.855
+INFO:root:Epoch = [  60/ 300] TrainLoss = 20.63 DevLoss = 0.1527 TrainTime = 82.2085s DevTime = 10.4761s
+INFO:root:Epoch = [ 61/300] Iter = [   0/  70] Loss = 20.56 Avg Loss = 20.56 rec_loss: 0.1236, vel_loss: 15.62, acc_loss: 4.821
+INFO:root:Epoch = [  61/ 300] TrainLoss = 20.54 DevLoss = 0.152 TrainTime = 83.7528s DevTime = 10.5540s
+INFO:root:Epoch = [ 62/300] Iter = [   0/  70] Loss = 20.47 Avg Loss = 20.47 rec_loss: 0.122, vel_loss: 15.56, acc_loss: 4.787
+INFO:root:Epoch = [  62/ 300] TrainLoss = 20.45 DevLoss = 0.1502 TrainTime = 82.4617s DevTime = 10.5958s
+INFO:root:Epoch = [ 63/300] Iter = [   0/  70] Loss = 20.38 Avg Loss = 20.38 rec_loss: 0.1241, vel_loss: 15.51, acc_loss: 4.754
+INFO:root:Epoch = [  63/ 300] TrainLoss = 20.36 DevLoss = 0.1508 TrainTime = 81.7419s DevTime = 10.5606s
+INFO:root:Epoch = [ 64/300] Iter = [   0/  70] Loss = 20.3 Avg Loss = 20.3 rec_loss: 0.1238, vel_loss: 15.45, acc_loss: 4.722
+INFO:root:Epoch = [  64/ 300] TrainLoss = 20.27 DevLoss = 0.1561 TrainTime = 81.6227s DevTime = 10.5628s
+INFO:root:Epoch = [ 65/300] Iter = [   0/  70] Loss = 20.21 Avg Loss = 20.21 rec_loss: 0.1247, vel_loss: 15.4, acc_loss: 4.691
+INFO:root:Epoch = [  65/ 300] TrainLoss = 20.19 DevLoss = 0.1511 TrainTime = 83.0983s DevTime = 10.3680s
+INFO:root:Epoch = [ 66/300] Iter = [   0/  70] Loss = 20.13 Avg Loss = 20.13 rec_loss: 0.1241, vel_loss: 15.34, acc_loss: 4.66
+INFO:root:Epoch = [  66/ 300] TrainLoss = 20.1 DevLoss = 0.1487 TrainTime = 83.3977s DevTime = 10.4662s
+INFO:root:Epoch = [ 67/300] Iter = [   0/  70] Loss = 20.05 Avg Loss = 20.05 rec_loss: 0.126, vel_loss: 15.29, acc_loss: 4.631
+INFO:root:Epoch = [  67/ 300] TrainLoss = 20.02 DevLoss = 0.1498 TrainTime = 83.2782s DevTime = 11.3203s
+INFO:root:Epoch = [ 68/300] Iter = [   0/  70] Loss = 19.96 Avg Loss = 19.96 rec_loss: 0.1238, vel_loss: 15.24, acc_loss: 4.602
+INFO:root:Epoch = [  68/ 300] TrainLoss = 19.94 DevLoss = 0.1498 TrainTime = 82.2057s DevTime = 10.5278s
+INFO:root:Epoch = [ 69/300] Iter = [   0/  70] Loss = 19.88 Avg Loss = 19.88 rec_loss: 0.1192, vel_loss: 15.18, acc_loss: 4.573
+INFO:root:Epoch = [  69/ 300] TrainLoss = 19.85 DevLoss = 0.1481 TrainTime = 81.4704s DevTime = 10.4618s
+INFO:root:Epoch = [ 70/300] Iter = [   0/  70] Loss = 19.8 Avg Loss = 19.8 rec_loss: 0.1198, vel_loss: 15.13, acc_loss: 4.545
+INFO:root:Epoch = [  70/ 300] TrainLoss = 19.77 DevLoss = 0.1511 TrainTime = 83.5648s DevTime = 10.4714s
+INFO:root:Epoch = [ 71/300] Iter = [   0/  70] Loss = 19.72 Avg Loss = 19.72 rec_loss: 0.1189, vel_loss: 15.08, acc_loss: 4.517
+INFO:root:Epoch = [  71/ 300] TrainLoss = 19.69 DevLoss = 0.1476 TrainTime = 81.4344s DevTime = 10.4518s
+INFO:root:Epoch = [ 72/300] Iter = [   0/  70] Loss = 19.64 Avg Loss = 19.64 rec_loss: 0.1175, vel_loss: 15.03, acc_loss: 4.49
+INFO:root:Epoch = [  72/ 300] TrainLoss = 19.61 DevLoss = 0.1494 TrainTime = 82.4139s DevTime = 10.3220s
+INFO:root:Epoch = [ 73/300] Iter = [   0/  70] Loss = 19.56 Avg Loss = 19.56 rec_loss: 0.1188, vel_loss: 14.98, acc_loss: 4.463
+INFO:root:Epoch = [  73/ 300] TrainLoss = 19.54 DevLoss = 0.1525 TrainTime = 82.3554s DevTime = 10.3856s
+INFO:root:Epoch = [ 74/300] Iter = [   0/  70] Loss = 19.48 Avg Loss = 19.48 rec_loss: 0.1185, vel_loss: 14.93, acc_loss: 4.436
+INFO:root:Epoch = [  74/ 300] TrainLoss = 19.46 DevLoss = 0.1519 TrainTime = 81.4167s DevTime = 10.9760s
+INFO:root:Epoch = [ 75/300] Iter = [   0/  70] Loss = 19.41 Avg Loss = 19.41 rec_loss: 0.1195, vel_loss: 14.88, acc_loss: 4.41
+INFO:root:Epoch = [  75/ 300] TrainLoss = 19.38 DevLoss = 0.1464 TrainTime = 83.0157s DevTime = 10.5529s
+INFO:root:Epoch = [ 76/300] Iter = [   0/  70] Loss = 19.33 Avg Loss = 19.33 rec_loss: 0.1187, vel_loss: 14.83, acc_loss: 4.384
+INFO:root:Epoch = [  76/ 300] TrainLoss = 19.31 DevLoss = 0.1489 TrainTime = 82.4622s DevTime = 10.2739s
+INFO:root:Epoch = [ 77/300] Iter = [   0/  70] Loss = 19.25 Avg Loss = 19.25 rec_loss: 0.1173, vel_loss: 14.78, acc_loss: 4.358
+INFO:root:Epoch = [  77/ 300] TrainLoss = 19.23 DevLoss = 0.1499 TrainTime = 82.3133s DevTime = 10.3182s
+INFO:root:Epoch = [ 78/300] Iter = [   0/  70] Loss = 19.18 Avg Loss = 19.18 rec_loss: 0.1235, vel_loss: 14.73, acc_loss: 4.332
+INFO:root:Epoch = [  78/ 300] TrainLoss = 19.16 DevLoss = 0.145 TrainTime = 81.9121s DevTime = 10.5170s
+INFO:root:Epoch = [ 79/300] Iter = [   0/  70] Loss = 19.1 Avg Loss = 19.1 rec_loss: 0.1193, vel_loss: 14.68, acc_loss: 4.307
+INFO:root:Epoch = [  79/ 300] TrainLoss = 19.08 DevLoss = 0.1477 TrainTime = 83.2060s DevTime = 10.5343s
+INFO:root:Epoch = [ 80/300] Iter = [   0/  70] Loss = 19.03 Avg Loss = 19.03 rec_loss: 0.1189, vel_loss: 14.63, acc_loss: 4.282
+INFO:root:Epoch = [  80/ 300] TrainLoss = 19.01 DevLoss = 0.1495 TrainTime = 81.3891s DevTime = 10.4378s
+INFO:root:Epoch = [ 81/300] Iter = [   0/  70] Loss = 18.96 Avg Loss = 18.96 rec_loss: 0.1234, vel_loss: 14.58, acc_loss: 4.257
+INFO:root:Epoch = [  81/ 300] TrainLoss = 18.93 DevLoss = 0.1465 TrainTime = 82.6135s DevTime = 11.0174s
+INFO:root:Epoch = [ 82/300] Iter = [   0/  70] Loss = 18.88 Avg Loss = 18.88 rec_loss: 0.1154, vel_loss: 14.53, acc_loss: 4.232
+INFO:root:Epoch = [  82/ 300] TrainLoss = 18.86 DevLoss = 0.1453 TrainTime = 83.2409s DevTime = 10.5033s
+INFO:root:Epoch = [ 83/300] Iter = [   0/  70] Loss = 18.8 Avg Loss = 18.8 rec_loss: 0.111, vel_loss: 14.48, acc_loss: 4.207
+INFO:root:Epoch = [  83/ 300] TrainLoss = 18.78 DevLoss = 0.1489 TrainTime = 82.2117s DevTime = 10.9030s
+INFO:root:Epoch = [ 84/300] Iter = [   0/  70] Loss = 18.72 Avg Loss = 18.72 rec_loss: 0.1091, vel_loss: 14.43, acc_loss: 4.183
+INFO:root:Epoch = [  84/ 300] TrainLoss = 18.71 DevLoss = 0.1451 TrainTime = 81.3329s DevTime = 10.8819s
+INFO:root:Epoch = [ 85/300] Iter = [   0/  70] Loss = 18.64 Avg Loss = 18.64 rec_loss: 0.1006, vel_loss: 14.38, acc_loss: 4.159
+INFO:root:Epoch = [  85/ 300] TrainLoss = 18.63 DevLoss = 0.1465 TrainTime = 80.9404s DevTime = 11.1122s
+INFO:root:Epoch = [ 86/300] Iter = [   0/  70] Loss = 18.59 Avg Loss = 18.59 rec_loss: 0.1207, vel_loss: 14.33, acc_loss: 4.135
+INFO:root:Epoch = [  86/ 300] TrainLoss = 18.57 DevLoss = 0.1468 TrainTime = 83.5236s DevTime = 11.0149s
+INFO:root:Epoch = [ 87/300] Iter = [   0/  70] Loss = 18.52 Avg Loss = 18.52 rec_loss: 0.1223, vel_loss: 14.29, acc_loss: 4.112
+INFO:root:Epoch = [  87/ 300] TrainLoss = 18.5 DevLoss = 0.1456 TrainTime = 83.1121s DevTime = 10.8712s
+INFO:root:Epoch = [ 88/300] Iter = [   0/  70] Loss = 18.44 Avg Loss = 18.44 rec_loss: 0.1163, vel_loss: 14.24, acc_loss: 4.089
+INFO:root:Epoch = [  88/ 300] TrainLoss = 18.42 DevLoss = 0.1463 TrainTime = 83.1436s DevTime = 11.2080s
+INFO:root:Epoch = [ 89/300] Iter = [   0/  70] Loss = 18.37 Avg Loss = 18.37 rec_loss: 0.1161, vel_loss: 14.19, acc_loss: 4.066
+INFO:root:Epoch = [  89/ 300] TrainLoss = 18.35 DevLoss = 0.1448 TrainTime = 82.4832s DevTime = 10.6145s
+INFO:root:Epoch = [ 90/300] Iter = [   0/  70] Loss = 18.3 Avg Loss = 18.3 rec_loss: 0.1159, vel_loss: 14.14, acc_loss: 4.043
+INFO:root:Epoch = [  90/ 300] TrainLoss = 18.28 DevLoss = 0.1462 TrainTime = 82.1161s DevTime = 11.1673s
+INFO:root:Epoch = [ 91/300] Iter = [   0/  70] Loss = 18.23 Avg Loss = 18.23 rec_loss: 0.1132, vel_loss: 14.09, acc_loss: 4.021
+INFO:root:Epoch = [  91/ 300] TrainLoss = 18.21 DevLoss = 0.1457 TrainTime = 83.8889s DevTime = 10.3314s
+INFO:root:Epoch = [ 92/300] Iter = [   0/  70] Loss = 18.16 Avg Loss = 18.16 rec_loss: 0.1114, vel_loss: 14.05, acc_loss: 3.998
+INFO:root:Epoch = [  92/ 300] TrainLoss = 18.14 DevLoss = 0.1475 TrainTime = 83.2827s DevTime = 11.2885s
+INFO:root:Epoch = [ 93/300] Iter = [   0/  70] Loss = 18.09 Avg Loss = 18.09 rec_loss: 0.1125, vel_loss: 14, acc_loss: 3.976
+INFO:root:Epoch = [  93/ 300] TrainLoss = 18.07 DevLoss = 0.1435 TrainTime = 82.5004s DevTime = 10.9249s
+INFO:root:Epoch = [ 94/300] Iter = [   0/  70] Loss = 18.01 Avg Loss = 18.01 rec_loss: 0.1064, vel_loss: 13.95, acc_loss: 3.954
+INFO:root:Epoch = [  94/ 300] TrainLoss = 18 DevLoss = 0.1449 TrainTime = 82.2299s DevTime = 10.5415s
+INFO:root:Epoch = [ 95/300] Iter = [   0/  70] Loss = 17.94 Avg Loss = 17.94 rec_loss: 0.1079, vel_loss: 13.9, acc_loss: 3.932
+INFO:root:Epoch = [  95/ 300] TrainLoss = 17.93 DevLoss = 0.1452 TrainTime = 81.9047s DevTime = 11.3790s
+INFO:root:Epoch = [ 96/300] Iter = [   0/  70] Loss = 17.88 Avg Loss = 17.88 rec_loss: 0.116, vel_loss: 13.86, acc_loss: 3.911
+INFO:root:Epoch = [  96/ 300] TrainLoss = 17.86 DevLoss = 0.1436 TrainTime = 82.4132s DevTime = 10.7769s
+INFO:root:Epoch = [ 97/300] Iter = [   0/  70] Loss = 17.81 Avg Loss = 17.81 rec_loss: 0.1159, vel_loss: 13.81, acc_loss: 3.889
+INFO:root:Epoch = [  97/ 300] TrainLoss = 17.79 DevLoss = 0.1421 TrainTime = 84.8009s DevTime = 10.6988s
+INFO:root:Epoch = [ 98/300] Iter = [   0/  70] Loss = 17.73 Avg Loss = 17.73 rec_loss: 0.1032, vel_loss: 13.76, acc_loss: 3.868
+INFO:root:Epoch = [  98/ 300] TrainLoss = 17.72 DevLoss = 0.1439 TrainTime = 83.7126s DevTime = 11.7236s
+INFO:root:Epoch = [ 99/300] Iter = [   0/  70] Loss = 17.67 Avg Loss = 17.67 rec_loss: 0.1138, vel_loss: 13.71, acc_loss: 3.846
+INFO:root:Epoch = [  99/ 300] TrainLoss = 17.65 DevLoss = 0.1437 TrainTime = 82.5713s DevTime = 10.4401s
+INFO:root:Epoch = [100/300] Iter = [   0/  70] Loss = 17.6 Avg Loss = 17.6 rec_loss: 0.1096, vel_loss: 13.67, acc_loss: 3.825
+INFO:root:Epoch = [ 100/ 300] TrainLoss = 17.58 DevLoss = 0.1444 TrainTime = 83.8243s DevTime = 10.4655s
+INFO:root:Epoch = [101/300] Iter = [   0/  70] Loss = 17.53 Avg Loss = 17.53 rec_loss: 0.1119, vel_loss: 13.62, acc_loss: 3.804
+INFO:root:Epoch = [ 101/ 300] TrainLoss = 17.51 DevLoss = 0.1431 TrainTime = 82.1704s DevTime = 10.9288s
+INFO:root:Epoch = [102/300] Iter = [   0/  70] Loss = 17.46 Avg Loss = 17.46 rec_loss: 0.1099, vel_loss: 13.57, acc_loss: 3.783
+INFO:root:Epoch = [ 102/ 300] TrainLoss = 17.44 DevLoss = 0.1445 TrainTime = 83.4238s DevTime = 11.2376s
+INFO:root:Epoch = [103/300] Iter = [   0/  70] Loss = 17.4 Avg Loss = 17.4 rec_loss: 0.1151, vel_loss: 13.52, acc_loss: 3.762
+INFO:root:Epoch = [ 103/ 300] TrainLoss = 17.38 DevLoss = 0.1436 TrainTime = 83.1913s DevTime = 10.9664s
+INFO:root:Epoch = [104/300] Iter = [   0/  70] Loss = 17.33 Avg Loss = 17.33 rec_loss: 0.1147, vel_loss: 13.48, acc_loss: 3.741
+INFO:root:Epoch = [ 104/ 300] TrainLoss = 17.31 DevLoss = 0.1435 TrainTime = 83.3507s DevTime = 11.1074s
+INFO:root:Epoch = [105/300] Iter = [   0/  70] Loss = 17.26 Avg Loss = 17.26 rec_loss: 0.1078, vel_loss: 13.43, acc_loss: 3.72
+INFO:root:Epoch = [ 105/ 300] TrainLoss = 17.24 DevLoss = 0.1445 TrainTime = 82.9844s DevTime = 10.3704s
+INFO:root:Epoch = [106/300] Iter = [   0/  70] Loss = 17.2 Avg Loss = 17.2 rec_loss: 0.1182, vel_loss: 13.38, acc_loss: 3.7
+INFO:root:Epoch = [ 106/ 300] TrainLoss = 17.18 DevLoss = 0.1421 TrainTime = 82.6966s DevTime = 10.4881s
+INFO:root:Epoch = [107/300] Iter = [   0/  70] Loss = 17.13 Avg Loss = 17.13 rec_loss: 0.1124, vel_loss: 13.33, acc_loss: 3.679
+INFO:root:Epoch = [ 107/ 300] TrainLoss = 17.11 DevLoss = 0.1432 TrainTime = 83.3788s DevTime = 11.2146s
+INFO:root:Epoch = [108/300] Iter = [   0/  70] Loss = 17.05 Avg Loss = 17.05 rec_loss: 0.1052, vel_loss: 13.29, acc_loss: 3.659
+INFO:root:Epoch = [ 108/ 300] TrainLoss = 17.03 DevLoss = 0.1436 TrainTime = 81.2499s DevTime = 10.5304s
+INFO:root:Epoch = [109/300] Iter = [   0/  70] Loss = 16.98 Avg Loss = 16.98 rec_loss: 0.1011, vel_loss: 13.24, acc_loss: 3.639
+INFO:root:Epoch = [ 109/ 300] TrainLoss = 16.97 DevLoss = 0.1455 TrainTime = 82.6788s DevTime = 10.9184s
+INFO:root:Epoch = [110/300] Iter = [   0/  70] Loss = 16.92 Avg Loss = 16.92 rec_loss: 0.1127, vel_loss: 13.19, acc_loss: 3.619
+INFO:root:Epoch = [ 110/ 300] TrainLoss = 16.9 DevLoss = 0.1413 TrainTime = 81.1008s DevTime = 10.4692s
+INFO:root:Epoch = [111/300] Iter = [   0/  70] Loss = 16.85 Avg Loss = 16.85 rec_loss: 0.1074, vel_loss: 13.14, acc_loss: 3.599
+INFO:root:Epoch = [ 111/ 300] TrainLoss = 16.83 DevLoss = 0.1429 TrainTime = 83.9915s DevTime = 10.7064s
+INFO:root:Epoch = [112/300] Iter = [   0/  70] Loss = 16.78 Avg Loss = 16.78 rec_loss: 0.1081, vel_loss: 13.1, acc_loss: 3.579
+INFO:root:Epoch = [ 112/ 300] TrainLoss = 16.77 DevLoss = 0.1394 TrainTime = 83.6159s DevTime = 11.0692s
+INFO:root:Epoch = [113/300] Iter = [   0/  70] Loss = 16.72 Avg Loss = 16.72 rec_loss: 0.1054, vel_loss: 13.05, acc_loss: 3.559
+INFO:root:Epoch = [ 113/ 300] TrainLoss = 16.7 DevLoss = 0.1429 TrainTime = 83.9737s DevTime = 11.0428s
+INFO:root:Epoch = [114/300] Iter = [   0/  70] Loss = 16.64 Avg Loss = 16.64 rec_loss: 0.1008, vel_loss: 13, acc_loss: 3.54
+INFO:root:Epoch = [ 114/ 300] TrainLoss = 16.63 DevLoss = 0.1425 TrainTime = 81.8602s DevTime = 10.5587s
+INFO:root:Epoch = [115/300] Iter = [   0/  70] Loss = 16.59 Avg Loss = 16.59 rec_loss: 0.1086, vel_loss: 12.96, acc_loss: 3.52
+INFO:root:Epoch = [ 115/ 300] TrainLoss = 16.57 DevLoss = 0.1401 TrainTime = 82.9986s DevTime = 11.0419s
+INFO:root:Epoch = [116/300] Iter = [   0/  70] Loss = 16.52 Avg Loss = 16.52 rec_loss: 0.1088, vel_loss: 12.91, acc_loss: 3.501
+INFO:root:Epoch = [ 116/ 300] TrainLoss = 16.5 DevLoss = 0.1445 TrainTime = 82.6137s DevTime = 10.9643s
+INFO:root:Epoch = [117/300] Iter = [   0/  70] Loss = 16.45 Avg Loss = 16.45 rec_loss: 0.1038, vel_loss: 12.86, acc_loss: 3.481
+INFO:root:Epoch = [ 117/ 300] TrainLoss = 16.43 DevLoss = 0.1467 TrainTime = 82.6892s DevTime = 10.4945s
+INFO:root:Epoch = [118/300] Iter = [   0/  70] Loss = 16.39 Avg Loss = 16.39 rec_loss: 0.1118, vel_loss: 12.82, acc_loss: 3.462
+INFO:root:Epoch = [ 118/ 300] TrainLoss = 16.37 DevLoss = 0.1436 TrainTime = 81.9491s DevTime = 10.6799s
+INFO:root:Epoch = [119/300] Iter = [   0/  70] Loss = 16.32 Avg Loss = 16.32 rec_loss: 0.1103, vel_loss: 12.77, acc_loss: 3.443
+INFO:root:Epoch = [ 119/ 300] TrainLoss = 16.3 DevLoss = 0.1435 TrainTime = 81.8640s DevTime = 10.4086s
+INFO:root:Epoch = [120/300] Iter = [   0/  70] Loss = 16.25 Avg Loss = 16.25 rec_loss: 0.106, vel_loss: 12.72, acc_loss: 3.423
+INFO:root:Epoch = [ 120/ 300] TrainLoss = 16.23 DevLoss = 0.1444 TrainTime = 82.8835s DevTime = 11.0090s
+INFO:root:Epoch = [121/300] Iter = [   0/  70] Loss = 16.19 Avg Loss = 16.19 rec_loss: 0.1158, vel_loss: 12.67, acc_loss: 3.404
+INFO:root:Epoch = [ 121/ 300] TrainLoss = 16.17 DevLoss = 0.1437 TrainTime = 81.5860s DevTime = 10.5175s
+INFO:root:Epoch = [122/300] Iter = [   0/  70] Loss = 16.12 Avg Loss = 16.12 rec_loss: 0.1071, vel_loss: 12.63, acc_loss: 3.385
+INFO:root:Epoch = [ 122/ 300] TrainLoss = 16.1 DevLoss = 0.1435 TrainTime = 81.8444s DevTime = 10.3979s
+INFO:root:Epoch = [123/300] Iter = [   0/  70] Loss = 16.05 Avg Loss = 16.05 rec_loss: 0.1077, vel_loss: 12.58, acc_loss: 3.366
+INFO:root:Epoch = [ 123/ 300] TrainLoss = 16.03 DevLoss = 0.1444 TrainTime = 82.2349s DevTime = 10.5373s
+INFO:root:Epoch = [124/300] Iter = [   0/  70] Loss = 15.99 Avg Loss = 15.99 rec_loss: 0.1073, vel_loss: 12.53, acc_loss: 3.347
+INFO:root:Epoch = [ 124/ 300] TrainLoss = 15.97 DevLoss = 0.1424 TrainTime = 82.1052s DevTime = 11.0781s
+INFO:root:Epoch = [125/300] Iter = [   0/  70] Loss = 15.92 Avg Loss = 15.92 rec_loss: 0.1104, vel_loss: 12.49, acc_loss: 3.328
+INFO:root:Epoch = [ 125/ 300] TrainLoss = 15.9 DevLoss = 0.1437 TrainTime = 83.1173s DevTime = 11.1605s
+INFO:root:Epoch = [126/300] Iter = [   0/  70] Loss = 15.86 Avg Loss = 15.86 rec_loss: 0.1147, vel_loss: 12.44, acc_loss: 3.31
+INFO:root:Epoch = [ 126/ 300] TrainLoss = 15.84 DevLoss = 0.1454 TrainTime = 83.3431s DevTime = 11.3834s
+INFO:root:Epoch = [127/300] Iter = [   0/  70] Loss = 15.78 Avg Loss = 15.78 rec_loss: 0.1003, vel_loss: 12.39, acc_loss: 3.291
+INFO:root:Epoch = [ 127/ 300] TrainLoss = 15.77 DevLoss = 0.1432 TrainTime = 82.3962s DevTime = 10.5124s
+INFO:root:Epoch = [128/300] Iter = [   0/  70] Loss = 15.72 Avg Loss = 15.72 rec_loss: 0.105, vel_loss: 12.34, acc_loss: 3.273
+INFO:root:Epoch = [ 128/ 300] TrainLoss = 15.7 DevLoss = 0.1434 TrainTime = 81.8683s DevTime = 10.4451s
+INFO:root:Epoch = [129/300] Iter = [   0/  70] Loss = 15.66 Avg Loss = 15.66 rec_loss: 0.1075, vel_loss: 12.3, acc_loss: 3.254
+INFO:root:Epoch = [ 129/ 300] TrainLoss = 15.64 DevLoss = 0.1441 TrainTime = 83.3170s DevTime = 11.2301s
+INFO:root:Epoch = [130/300] Iter = [   0/  70] Loss = 15.6 Avg Loss = 15.6 rec_loss: 0.1156, vel_loss: 12.25, acc_loss: 3.236
+INFO:root:Epoch = [ 130/ 300] TrainLoss = 15.58 DevLoss = 0.1424 TrainTime = 83.4026s DevTime = 11.2268s
+INFO:root:Epoch = [131/300] Iter = [   0/  70] Loss = 15.54 Avg Loss = 15.54 rec_loss: 0.1158, vel_loss: 12.2, acc_loss: 3.217
+INFO:root:Epoch = [ 131/ 300] TrainLoss = 15.51 DevLoss = 0.1431 TrainTime = 82.4407s DevTime = 10.6506s
+INFO:root:Epoch = [132/300] Iter = [   0/  70] Loss = 15.47 Avg Loss = 15.47 rec_loss: 0.1103, vel_loss: 12.16, acc_loss: 3.199
+INFO:root:Epoch = [ 132/ 300] TrainLoss = 15.45 DevLoss = 0.1441 TrainTime = 82.6666s DevTime = 10.6226s
+INFO:root:Epoch = [133/300] Iter = [   0/  70] Loss = 15.4 Avg Loss = 15.4 rec_loss: 0.1093, vel_loss: 12.11, acc_loss: 3.181
+INFO:root:Epoch = [ 133/ 300] TrainLoss = 15.38 DevLoss = 0.1454 TrainTime = 82.1370s DevTime = 10.7830s
+INFO:root:Epoch = [134/300] Iter = [   0/  70] Loss = 15.33 Avg Loss = 15.33 rec_loss: 0.1063, vel_loss: 12.06, acc_loss: 3.163
+INFO:root:Epoch = [ 134/ 300] TrainLoss = 15.31 DevLoss = 0.1439 TrainTime = 82.6301s DevTime = 11.2435s
+INFO:root:Epoch = [135/300] Iter = [   0/  70] Loss = 15.26 Avg Loss = 15.26 rec_loss: 0.1015, vel_loss: 12.01, acc_loss: 3.144
+INFO:root:Epoch = [ 135/ 300] TrainLoss = 15.24 DevLoss = 0.1413 TrainTime = 82.1623s DevTime = 10.6141s
+INFO:root:Epoch = [136/300] Iter = [   0/  70] Loss = 15.19 Avg Loss = 15.19 rec_loss: 0.09474, vel_loss: 11.97, acc_loss: 3.126
+INFO:root:Epoch = [ 136/ 300] TrainLoss = 15.18 DevLoss = 0.142 TrainTime = 81.7782s DevTime = 11.0786s
+INFO:root:Epoch = [137/300] Iter = [   0/  70] Loss = 15.13 Avg Loss = 15.13 rec_loss: 0.09686, vel_loss: 11.92, acc_loss: 3.108
+INFO:root:Epoch = [ 137/ 300] TrainLoss = 15.11 DevLoss = 0.1419 TrainTime = 82.0364s DevTime = 10.9720s
+INFO:root:Epoch = [138/300] Iter = [   0/  70] Loss = 15.07 Avg Loss = 15.07 rec_loss: 0.1087, vel_loss: 11.87, acc_loss: 3.09
+INFO:root:Epoch = [ 138/ 300] TrainLoss = 15.05 DevLoss = 0.1421 TrainTime = 82.7822s DevTime = 10.9548s
+INFO:root:Epoch = [139/300] Iter = [   0/  70] Loss = 15 Avg Loss = 15 rec_loss: 0.1053, vel_loss: 11.83, acc_loss: 3.072
+INFO:root:Epoch = [ 139/ 300] TrainLoss = 14.99 DevLoss = 0.143 TrainTime = 83.0282s DevTime = 10.3848s
+INFO:root:Epoch = [140/300] Iter = [   0/  70] Loss = 14.95 Avg Loss = 14.95 rec_loss: 0.1119, vel_loss: 11.78, acc_loss: 3.054
+INFO:root:Epoch = [ 140/ 300] TrainLoss = 14.92 DevLoss = 0.1436 TrainTime = 81.8641s DevTime = 11.2080s
+INFO:root:Epoch = [141/300] Iter = [   0/  70] Loss = 14.87 Avg Loss = 14.87 rec_loss: 0.09775, vel_loss: 11.73, acc_loss: 3.036
+INFO:root:Epoch = [ 141/ 300] TrainLoss = 14.85 DevLoss = 0.1408 TrainTime = 82.5865s DevTime = 11.1315s
+INFO:root:Epoch = [142/300] Iter = [   0/  70] Loss = 14.81 Avg Loss = 14.81 rec_loss: 0.103, vel_loss: 11.69, acc_loss: 3.018
+INFO:root:Epoch = [ 142/ 300] TrainLoss = 14.79 DevLoss = 0.1419 TrainTime = 83.5291s DevTime = 10.5412s
+INFO:root:Epoch = [143/300] Iter = [   0/  70] Loss = 14.74 Avg Loss = 14.74 rec_loss: 0.104, vel_loss: 11.64, acc_loss: 3.001
+INFO:root:Epoch = [ 143/ 300] TrainLoss = 14.73 DevLoss = 0.1425 TrainTime = 82.5498s DevTime = 10.5648s
+INFO:root:Epoch = [144/300] Iter = [   0/  70] Loss = 14.69 Avg Loss = 14.69 rec_loss: 0.1098, vel_loss: 11.59, acc_loss: 2.983
+INFO:root:Epoch = [ 144/ 300] TrainLoss = 14.66 DevLoss = 0.1428 TrainTime = 81.6936s DevTime = 10.5675s
+INFO:root:Epoch = [145/300] Iter = [   0/  70] Loss = 14.61 Avg Loss = 14.61 rec_loss: 0.09639, vel_loss: 11.55, acc_loss: 2.965
+INFO:root:Epoch = [ 145/ 300] TrainLoss = 14.59 DevLoss = 0.1406 TrainTime = 82.4410s DevTime = 11.0996s
+INFO:root:Epoch = [146/300] Iter = [   0/  70] Loss = 14.56 Avg Loss = 14.56 rec_loss: 0.1104, vel_loss: 11.5, acc_loss: 2.948
+INFO:root:Epoch = [ 146/ 300] TrainLoss = 14.54 DevLoss = 0.1425 TrainTime = 83.3851s DevTime = 11.1092s
+INFO:root:Epoch = [147/300] Iter = [   0/  70] Loss = 14.48 Avg Loss = 14.48 rec_loss: 0.09985, vel_loss: 11.45, acc_loss: 2.93
+INFO:root:Epoch = [ 147/ 300] TrainLoss = 14.47 DevLoss = 0.1391 TrainTime = 82.8428s DevTime = 11.3174s
+INFO:root:Epoch = [148/300] Iter = [   0/  70] Loss = 14.42 Avg Loss = 14.42 rec_loss: 0.106, vel_loss: 11.41, acc_loss: 2.913
+INFO:root:Epoch = [ 148/ 300] TrainLoss = 14.4 DevLoss = 0.1411 TrainTime = 83.8847s DevTime = 10.8550s
+INFO:root:Epoch = [149/300] Iter = [   0/  70] Loss = 14.35 Avg Loss = 14.35 rec_loss: 0.101, vel_loss: 11.36, acc_loss: 2.895
+INFO:root:Epoch = [ 149/ 300] TrainLoss = 14.34 DevLoss = 0.1415 TrainTime = 83.8765s DevTime = 11.2007s
+INFO:root:Epoch = [150/300] Iter = [   0/  70] Loss = 14.29 Avg Loss = 14.29 rec_loss: 0.09656, vel_loss: 11.31, acc_loss: 2.878
+INFO:root:Epoch = [ 150/ 300] TrainLoss = 14.27 DevLoss = 0.1418 TrainTime = 81.6692s DevTime = 10.7415s
+INFO:root:Epoch = [151/300] Iter = [   0/  70] Loss = 14.23 Avg Loss = 14.23 rec_loss: 0.1034, vel_loss: 11.26, acc_loss: 2.861
+INFO:root:Epoch = [ 151/ 300] TrainLoss = 14.21 DevLoss = 0.1431 TrainTime = 82.5404s DevTime = 10.4633s
+INFO:root:Epoch = [152/300] Iter = [   0/  70] Loss = 14.16 Avg Loss = 14.16 rec_loss: 0.09836, vel_loss: 11.22, acc_loss: 2.843
+INFO:root:Epoch = [ 152/ 300] TrainLoss = 14.14 DevLoss = 0.1416 TrainTime = 81.7930s DevTime = 10.5054s
+INFO:root:Epoch = [153/300] Iter = [   0/  70] Loss = 14.1 Avg Loss = 14.1 rec_loss: 0.1078, vel_loss: 11.17, acc_loss: 2.826
+INFO:root:Epoch = [ 153/ 300] TrainLoss = 14.08 DevLoss = 0.1424 TrainTime = 83.6892s DevTime = 11.0045s
+INFO:root:Epoch = [154/300] Iter = [   0/  70] Loss = 14.04 Avg Loss = 14.04 rec_loss: 0.1053, vel_loss: 11.12, acc_loss: 2.809
+INFO:root:Epoch = [ 154/ 300] TrainLoss = 14.02 DevLoss = 0.1426 TrainTime = 82.9872s DevTime = 10.6547s
+INFO:root:Epoch = [155/300] Iter = [   0/  70] Loss = 13.97 Avg Loss = 13.97 rec_loss: 0.09871, vel_loss: 11.08, acc_loss: 2.792
+INFO:root:Epoch = [ 155/ 300] TrainLoss = 13.95 DevLoss = 0.1432 TrainTime = 83.1819s DevTime = 11.0083s
+INFO:root:Epoch = [156/300] Iter = [   0/  70] Loss = 13.9 Avg Loss = 13.9 rec_loss: 0.09901, vel_loss: 11.03, acc_loss: 2.775
+INFO:root:Epoch = [ 156/ 300] TrainLoss = 13.89 DevLoss = 0.1403 TrainTime = 83.0797s DevTime = 11.4771s
+INFO:root:Epoch = [157/300] Iter = [   0/  70] Loss = 13.84 Avg Loss = 13.84 rec_loss: 0.1011, vel_loss: 10.98, acc_loss: 2.757
+INFO:root:Epoch = [ 157/ 300] TrainLoss = 13.83 DevLoss = 0.1421 TrainTime = 81.0882s DevTime = 10.9277s
+INFO:root:Epoch = [158/300] Iter = [   0/  70] Loss = 13.78 Avg Loss = 13.78 rec_loss: 0.09945, vel_loss: 10.94, acc_loss: 2.74
+INFO:root:Epoch = [ 158/ 300] TrainLoss = 13.76 DevLoss = 0.1423 TrainTime = 83.6218s DevTime = 11.2697s
+INFO:root:Epoch = [159/300] Iter = [   0/  70] Loss = 13.72 Avg Loss = 13.72 rec_loss: 0.104, vel_loss: 10.89, acc_loss: 2.723
+INFO:root:Epoch = [ 159/ 300] TrainLoss = 13.7 DevLoss = 0.1421 TrainTime = 82.3725s DevTime = 10.7394s
+INFO:root:Epoch = [160/300] Iter = [   0/  70] Loss = 13.65 Avg Loss = 13.65 rec_loss: 0.1, vel_loss: 10.84, acc_loss: 2.707
+INFO:root:Epoch = [ 160/ 300] TrainLoss = 13.63 DevLoss = 0.1419 TrainTime = 82.2313s DevTime = 10.4519s
+INFO:root:Epoch = [161/300] Iter = [   0/  70] Loss = 13.59 Avg Loss = 13.59 rec_loss: 0.1057, vel_loss: 10.8, acc_loss: 2.69
+INFO:root:Epoch = [ 161/ 300] TrainLoss = 13.57 DevLoss = 0.1407 TrainTime = 82.6960s DevTime = 10.5118s
+INFO:root:Epoch = [162/300] Iter = [   0/  70] Loss = 13.52 Avg Loss = 13.52 rec_loss: 0.09822, vel_loss: 10.75, acc_loss: 2.673
+INFO:root:Epoch = [ 162/ 300] TrainLoss = 13.51 DevLoss = 0.142 TrainTime = 83.8302s DevTime = 11.3220s
+INFO:root:Epoch = [163/300] Iter = [   0/  70] Loss = 13.47 Avg Loss = 13.47 rec_loss: 0.11, vel_loss: 10.7, acc_loss: 2.656
+INFO:root:Epoch = [ 163/ 300] TrainLoss = 13.45 DevLoss = 0.1432 TrainTime = 81.4174s DevTime = 10.5831s
+INFO:root:Epoch = [164/300] Iter = [   0/  70] Loss = 13.4 Avg Loss = 13.4 rec_loss: 0.1072, vel_loss: 10.66, acc_loss: 2.64
+INFO:root:Epoch = [ 164/ 300] TrainLoss = 13.38 DevLoss = 0.1428 TrainTime = 82.1945s DevTime = 10.4884s
+INFO:root:Epoch = [165/300] Iter = [   0/  70] Loss = 13.33 Avg Loss = 13.33 rec_loss: 0.09922, vel_loss: 10.61, acc_loss: 2.623
+INFO:root:Epoch = [ 165/ 300] TrainLoss = 13.32 DevLoss = 0.1422 TrainTime = 83.1976s DevTime = 10.8336s
+INFO:root:Epoch = [166/300] Iter = [   0/  70] Loss = 13.27 Avg Loss = 13.27 rec_loss: 0.09945, vel_loss: 10.56, acc_loss: 2.606
+INFO:root:Epoch = [ 166/ 300] TrainLoss = 13.25 DevLoss = 0.1425 TrainTime = 81.3364s DevTime = 11.0237s
+INFO:root:Epoch = [167/300] Iter = [   0/  70] Loss = 13.21 Avg Loss = 13.21 rec_loss: 0.1006, vel_loss: 10.52, acc_loss: 2.59
+INFO:root:Epoch = [ 167/ 300] TrainLoss = 13.19 DevLoss = 0.1414 TrainTime = 81.8349s DevTime = 10.6785s
+INFO:root:Epoch = [168/300] Iter = [   0/  70] Loss = 13.14 Avg Loss = 13.14 rec_loss: 0.0959, vel_loss: 10.47, acc_loss: 2.573
+INFO:root:Epoch = [ 168/ 300] TrainLoss = 13.12 DevLoss = 0.1419 TrainTime = 82.1746s DevTime = 10.8178s
+INFO:root:Epoch = [169/300] Iter = [   0/  70] Loss = 13.09 Avg Loss = 13.09 rec_loss: 0.1061, vel_loss: 10.42, acc_loss: 2.557
+INFO:root:Epoch = [ 169/ 300] TrainLoss = 13.07 DevLoss = 0.1419 TrainTime = 82.7339s DevTime = 10.6306s
+INFO:root:Epoch = [170/300] Iter = [   0/  70] Loss = 13.03 Avg Loss = 13.03 rec_loss: 0.1129, vel_loss: 10.38, acc_loss: 2.54
+INFO:root:Epoch = [ 170/ 300] TrainLoss = 13.01 DevLoss = 0.1423 TrainTime = 81.3707s DevTime = 11.0343s
+INFO:root:Epoch = [171/300] Iter = [   0/  70] Loss = 12.95 Avg Loss = 12.95 rec_loss: 0.0949, vel_loss: 10.33, acc_loss: 2.524
+INFO:root:Epoch = [ 171/ 300] TrainLoss = 12.93 DevLoss = 0.1416 TrainTime = 82.5194s DevTime = 10.5233s
+INFO:root:Epoch = [172/300] Iter = [   0/  70] Loss = 12.89 Avg Loss = 12.89 rec_loss: 0.09993, vel_loss: 10.28, acc_loss: 2.508
+INFO:root:Epoch = [ 172/ 300] TrainLoss = 12.87 DevLoss = 0.1411 TrainTime = 83.7809s DevTime = 11.0417s
+INFO:root:Epoch = [173/300] Iter = [   0/  70] Loss = 12.83 Avg Loss = 12.83 rec_loss: 0.1032, vel_loss: 10.24, acc_loss: 2.491
+INFO:root:Epoch = [ 173/ 300] TrainLoss = 12.81 DevLoss = 0.1423 TrainTime = 83.2521s DevTime = 10.9987s
+INFO:root:Epoch = [174/300] Iter = [   0/  70] Loss = 12.77 Avg Loss = 12.77 rec_loss: 0.1019, vel_loss: 10.19, acc_loss: 2.475
+INFO:root:Epoch = [ 174/ 300] TrainLoss = 12.75 DevLoss = 0.1426 TrainTime = 82.3580s DevTime = 11.7979s
+INFO:root:Epoch = [175/300] Iter = [   0/  70] Loss = 12.71 Avg Loss = 12.71 rec_loss: 0.1072, vel_loss: 10.14, acc_loss: 2.459
+INFO:root:Epoch = [ 175/ 300] TrainLoss = 12.69 DevLoss = 0.1426 TrainTime = 83.6870s DevTime = 10.5323s
+INFO:root:Epoch = [176/300] Iter = [   0/  70] Loss = 12.64 Avg Loss = 12.64 rec_loss: 0.1051, vel_loss: 10.1, acc_loss: 2.443
+INFO:root:Epoch = [ 176/ 300] TrainLoss = 12.63 DevLoss = 0.1447 TrainTime = 82.8536s DevTime = 10.4875s
+INFO:root:Epoch = [177/300] Iter = [   0/  70] Loss = 12.58 Avg Loss = 12.58 rec_loss: 0.1007, vel_loss: 10.05, acc_loss: 2.427
+INFO:root:Epoch = [ 177/ 300] TrainLoss = 12.56 DevLoss = 0.145 TrainTime = 82.3308s DevTime = 11.2088s
+INFO:root:Epoch = [178/300] Iter = [   0/  70] Loss = 12.51 Avg Loss = 12.51 rec_loss: 0.09543, vel_loss: 10, acc_loss: 2.411
+INFO:root:Epoch = [ 178/ 300] TrainLoss = 12.49 DevLoss = 0.1466 TrainTime = 81.8408s DevTime = 11.2057s
+INFO:root:Epoch = [179/300] Iter = [   0/  70] Loss = 12.46 Avg Loss = 12.46 rec_loss: 0.1048, vel_loss: 9.956, acc_loss: 2.395
+INFO:root:Epoch = [ 179/ 300] TrainLoss = 12.44 DevLoss = 0.1444 TrainTime = 82.6575s DevTime = 10.7101s
+INFO:root:Epoch = [180/300] Iter = [   0/  70] Loss = 12.39 Avg Loss = 12.39 rec_loss: 0.09995, vel_loss: 9.909, acc_loss: 2.379
+INFO:root:Epoch = [ 180/ 300] TrainLoss = 12.37 DevLoss = 0.1465 TrainTime = 82.7222s DevTime = 10.7329s
+INFO:root:Epoch = [181/300] Iter = [   0/  70] Loss = 12.33 Avg Loss = 12.33 rec_loss: 0.101, vel_loss: 9.863, acc_loss: 2.363
+INFO:root:Epoch = [ 181/ 300] TrainLoss = 12.31 DevLoss = 0.1445 TrainTime = 83.4688s DevTime = 11.1243s
+INFO:root:Epoch = [182/300] Iter = [   0/  70] Loss = 12.26 Avg Loss = 12.26 rec_loss: 0.09865, vel_loss: 9.816, acc_loss: 2.347
+INFO:root:Epoch = [ 182/ 300] TrainLoss = 12.25 DevLoss = 0.1426 TrainTime = 84.4228s DevTime = 10.9014s
+INFO:root:Epoch = [183/300] Iter = [   0/  70] Loss = 12.2 Avg Loss = 12.2 rec_loss: 0.09932, vel_loss: 9.77, acc_loss: 2.332
+INFO:root:Epoch = [ 183/ 300] TrainLoss = 12.18 DevLoss = 0.1463 TrainTime = 82.5991s DevTime = 11.0851s
+INFO:root:Epoch = [184/300] Iter = [   0/  70] Loss = 12.14 Avg Loss = 12.14 rec_loss: 0.09871, vel_loss: 9.723, acc_loss: 2.316
+INFO:root:Epoch = [ 184/ 300] TrainLoss = 12.12 DevLoss = 0.1434 TrainTime = 83.1837s DevTime = 11.1846s
+INFO:root:Epoch = [185/300] Iter = [   0/  70] Loss = 12.09 Avg Loss = 12.09 rec_loss: 0.1106, vel_loss: 9.677, acc_loss: 2.3
+INFO:root:Epoch = [ 185/ 300] TrainLoss = 12.07 DevLoss = 0.146 TrainTime = 83.0131s DevTime = 10.6742s
+INFO:root:Epoch = [186/300] Iter = [   0/  70] Loss = 12.02 Avg Loss = 12.02 rec_loss: 0.1031, vel_loss: 9.63, acc_loss: 2.285
+INFO:root:Epoch = [ 186/ 300] TrainLoss = 12 DevLoss = 0.143 TrainTime = 82.2049s DevTime = 10.9119s
+INFO:root:Epoch = [187/300] Iter = [   0/  70] Loss = 11.95 Avg Loss = 11.95 rec_loss: 0.1023, vel_loss: 9.584, acc_loss: 2.269
+INFO:root:Epoch = [ 187/ 300] TrainLoss = 11.94 DevLoss = 0.1431 TrainTime = 82.1646s DevTime = 10.9753s
+INFO:root:Epoch = [188/300] Iter = [   0/  70] Loss = 11.89 Avg Loss = 11.89 rec_loss: 0.1009, vel_loss: 9.537, acc_loss: 2.253
+INFO:root:Epoch = [ 188/ 300] TrainLoss = 11.87 DevLoss = 0.1444 TrainTime = 81.5109s DevTime = 11.1123s
+INFO:root:Epoch = [189/300] Iter = [   0/  70] Loss = 11.83 Avg Loss = 11.83 rec_loss: 0.1012, vel_loss: 9.491, acc_loss: 2.238
+INFO:root:Epoch = [ 189/ 300] TrainLoss = 11.81 DevLoss = 0.1437 TrainTime = 82.2543s DevTime = 11.0936s
+INFO:root:Epoch = [190/300] Iter = [   0/  70] Loss = 11.77 Avg Loss = 11.77 rec_loss: 0.1027, vel_loss: 9.444, acc_loss: 2.223
+INFO:root:Epoch = [ 190/ 300] TrainLoss = 11.75 DevLoss = 0.1428 TrainTime = 83.2112s DevTime = 11.0129s
+INFO:root:Epoch = [191/300] Iter = [   0/  70] Loss = 11.71 Avg Loss = 11.71 rec_loss: 0.1057, vel_loss: 9.398, acc_loss: 2.207
+INFO:root:Epoch = [ 191/ 300] TrainLoss = 11.69 DevLoss = 0.1433 TrainTime = 83.0604s DevTime = 11.1482s
+INFO:root:Epoch = [192/300] Iter = [   0/  70] Loss = 11.65 Avg Loss = 11.65 rec_loss: 0.1043, vel_loss: 9.351, acc_loss: 2.192
+INFO:root:Epoch = [ 192/ 300] TrainLoss = 11.63 DevLoss = 0.144 TrainTime = 81.3505s DevTime = 11.0569s
+INFO:root:Epoch = [193/300] Iter = [   0/  70] Loss = 11.58 Avg Loss = 11.58 rec_loss: 0.09745, vel_loss: 9.305, acc_loss: 2.177
+INFO:root:Epoch = [ 193/ 300] TrainLoss = 11.56 DevLoss = 0.141 TrainTime = 82.5392s DevTime = 11.0533s
+INFO:root:Epoch = [194/300] Iter = [   0/  70] Loss = 11.52 Avg Loss = 11.52 rec_loss: 0.09999, vel_loss: 9.258, acc_loss: 2.161
+INFO:root:Epoch = [ 194/ 300] TrainLoss = 11.5 DevLoss = 0.1455 TrainTime = 83.7239s DevTime = 10.7496s
+INFO:root:Epoch = [195/300] Iter = [   0/  70] Loss = 11.45 Avg Loss = 11.45 rec_loss: 0.09693, vel_loss: 9.212, acc_loss: 2.146
+INFO:root:Epoch = [ 195/ 300] TrainLoss = 11.44 DevLoss = 0.1406 TrainTime = 81.9417s DevTime = 11.0895s
+INFO:root:Epoch = [196/300] Iter = [   0/  70] Loss = 11.4 Avg Loss = 11.4 rec_loss: 0.1025, vel_loss: 9.165, acc_loss: 2.131
+INFO:root:Epoch = [ 196/ 300] TrainLoss = 11.38 DevLoss = 0.1437 TrainTime = 81.6264s DevTime = 10.8025s
+INFO:root:Epoch = [197/300] Iter = [   0/  70] Loss = 11.34 Avg Loss = 11.34 rec_loss: 0.1008, vel_loss: 9.119, acc_loss: 2.116
+INFO:root:Epoch = [ 197/ 300] TrainLoss = 11.32 DevLoss = 0.143 TrainTime = 84.1541s DevTime = 10.8986s
+INFO:root:Epoch = [198/300] Iter = [   0/  70] Loss = 11.27 Avg Loss = 11.27 rec_loss: 0.101, vel_loss: 9.072, acc_loss: 2.101
+INFO:root:Epoch = [ 198/ 300] TrainLoss = 11.26 DevLoss = 0.1429 TrainTime = 82.9747s DevTime = 10.6056s
+INFO:root:Epoch = [199/300] Iter = [   0/  70] Loss = 11.22 Avg Loss = 11.22 rec_loss: 0.1055, vel_loss: 9.026, acc_loss: 2.086
+INFO:root:Epoch = [ 199/ 300] TrainLoss = 11.2 DevLoss = 0.144 TrainTime = 83.2445s DevTime = 11.1815s
+INFO:root:Epoch = [200/300] Iter = [   0/  70] Loss = 11.15 Avg Loss = 11.15 rec_loss: 0.09934, vel_loss: 8.979, acc_loss: 2.071
+INFO:root:Epoch = [ 200/ 300] TrainLoss = 11.13 DevLoss = 0.1468 TrainTime = 82.8012s DevTime = 11.2117s
+INFO:root:Epoch = [201/300] Iter = [   0/  70] Loss = 11.09 Avg Loss = 11.09 rec_loss: 0.09675, vel_loss: 8.933, acc_loss: 2.056
+INFO:root:Epoch = [ 201/ 300] TrainLoss = 11.07 DevLoss = 0.1451 TrainTime = 81.2397s DevTime = 10.6515s
+INFO:root:Epoch = [202/300] Iter = [   0/  70] Loss = 11.03 Avg Loss = 11.03 rec_loss: 0.09788, vel_loss: 8.886, acc_loss: 2.042
+INFO:root:Epoch = [ 202/ 300] TrainLoss = 11.01 DevLoss = 0.1434 TrainTime = 82.7339s DevTime = 10.8850s
+INFO:root:Epoch = [203/300] Iter = [   0/  70] Loss = 10.97 Avg Loss = 10.97 rec_loss: 0.1047, vel_loss: 8.84, acc_loss: 2.027
+INFO:root:Epoch = [ 203/ 300] TrainLoss = 10.95 DevLoss = 0.1451 TrainTime = 84.8211s DevTime = 10.7034s
+INFO:root:Epoch = [204/300] Iter = [   0/  70] Loss = 10.9 Avg Loss = 10.9 rec_loss: 0.09409, vel_loss: 8.793, acc_loss: 2.012
+INFO:root:Epoch = [ 204/ 300] TrainLoss = 10.89 DevLoss = 0.1456 TrainTime = 82.2640s DevTime = 10.6661s
+INFO:root:Epoch = [205/300] Iter = [   0/  70] Loss = 10.85 Avg Loss = 10.85 rec_loss: 0.1058, vel_loss: 8.747, acc_loss: 1.997
+INFO:root:Epoch = [ 205/ 300] TrainLoss = 10.83 DevLoss = 0.1434 TrainTime = 82.2116s DevTime = 11.3023s
+INFO:root:Epoch = [206/300] Iter = [   0/  70] Loss = 10.79 Avg Loss = 10.79 rec_loss: 0.1019, vel_loss: 8.701, acc_loss: 1.983
+INFO:root:Epoch = [ 206/ 300] TrainLoss = 10.77 DevLoss = 0.1437 TrainTime = 83.8813s DevTime = 10.6526s
+INFO:root:Epoch = [207/300] Iter = [   0/  70] Loss = 10.72 Avg Loss = 10.72 rec_loss: 0.09924, vel_loss: 8.654, acc_loss: 1.968
+INFO:root:Epoch = [ 207/ 300] TrainLoss = 10.71 DevLoss = 0.1448 TrainTime = 82.0330s DevTime = 10.7517s
+INFO:root:Epoch = [208/300] Iter = [   0/  70] Loss = 10.66 Avg Loss = 10.66 rec_loss: 0.1019, vel_loss: 8.608, acc_loss: 1.954
+INFO:root:Epoch = [ 208/ 300] TrainLoss = 10.65 DevLoss = 0.1445 TrainTime = 82.2202s DevTime = 11.2888s
+INFO:root:Epoch = [209/300] Iter = [   0/  70] Loss = 10.6 Avg Loss = 10.6 rec_loss: 0.09741, vel_loss: 8.562, acc_loss: 1.939
+INFO:root:Epoch = [ 209/ 300] TrainLoss = 10.58 DevLoss = 0.1452 TrainTime = 83.6809s DevTime = 10.6719s
+INFO:root:Epoch = [210/300] Iter = [   0/  70] Loss = 10.55 Avg Loss = 10.55 rec_loss: 0.1085, vel_loss: 8.515, acc_loss: 1.925
+INFO:root:Epoch = [ 210/ 300] TrainLoss = 10.53 DevLoss = 0.1458 TrainTime = 81.1076s DevTime = 11.4609s
+INFO:root:Epoch = [211/300] Iter = [   0/  70] Loss = 10.49 Avg Loss = 10.49 rec_loss: 0.1062, vel_loss: 8.469, acc_loss: 1.91
+INFO:root:Epoch = [ 211/ 300] TrainLoss = 10.47 DevLoss = 0.1447 TrainTime = 82.1392s DevTime = 10.6183s
+INFO:root:Epoch = [212/300] Iter = [   0/  70] Loss = 10.42 Avg Loss = 10.42 rec_loss: 0.09931, vel_loss: 8.423, acc_loss: 1.896
+INFO:root:Epoch = [ 212/ 300] TrainLoss = 10.4 DevLoss = 0.1435 TrainTime = 82.3663s DevTime = 11.4471s
+INFO:root:Epoch = [213/300] Iter = [   0/  70] Loss = 10.36 Avg Loss = 10.36 rec_loss: 0.1062, vel_loss: 8.376, acc_loss: 1.882
+INFO:root:Epoch = [ 213/ 300] TrainLoss = 10.34 DevLoss = 0.145 TrainTime = 82.1788s DevTime = 10.8454s
+INFO:root:Epoch = [214/300] Iter = [   0/  70] Loss = 10.3 Avg Loss = 10.3 rec_loss: 0.1002, vel_loss: 8.33, acc_loss: 1.868
+INFO:root:Epoch = [ 214/ 300] TrainLoss = 10.28 DevLoss = 0.1442 TrainTime = 83.6268s DevTime = 10.7871s
+INFO:root:Epoch = [215/300] Iter = [   0/  70] Loss = 10.23 Avg Loss = 10.23 rec_loss: 0.09542, vel_loss: 8.284, acc_loss: 1.854
+INFO:root:Epoch = [ 215/ 300] TrainLoss = 10.22 DevLoss = 0.1449 TrainTime = 81.4967s DevTime = 10.9993s
+INFO:root:Epoch = [216/300] Iter = [   0/  70] Loss = 10.17 Avg Loss = 10.17 rec_loss: 0.09042, vel_loss: 8.237, acc_loss: 1.84
+INFO:root:Epoch = [ 216/ 300] TrainLoss = 10.15 DevLoss = 0.144 TrainTime = 82.9211s DevTime = 10.7266s
+INFO:root:Epoch = [217/300] Iter = [   0/  70] Loss = 10.12 Avg Loss = 10.12 rec_loss: 0.1032, vel_loss: 8.191, acc_loss: 1.826
+INFO:root:Epoch = [ 217/ 300] TrainLoss = 10.1 DevLoss = 0.1436 TrainTime = 82.2795s DevTime = 10.6231s
+INFO:root:Epoch = [218/300] Iter = [   0/  70] Loss = 10.06 Avg Loss = 10.06 rec_loss: 0.1053, vel_loss: 8.145, acc_loss: 1.812
+INFO:root:Epoch = [ 218/ 300] TrainLoss = 10.04 DevLoss = 0.1416 TrainTime = 83.4311s DevTime = 11.2649s
+INFO:root:Epoch = [219/300] Iter = [   0/  70] Loss = 9.999 Avg Loss = 9.999 rec_loss: 0.1026, vel_loss: 8.098, acc_loss: 1.798
+INFO:root:Epoch = [ 219/ 300] TrainLoss = 9.98 DevLoss = 0.1412 TrainTime = 82.4432s DevTime = 10.8119s
+INFO:root:Epoch = [220/300] Iter = [   0/  70] Loss = 9.933 Avg Loss = 9.933 rec_loss: 0.09729, vel_loss: 8.052, acc_loss: 1.784
+INFO:root:Epoch = [ 220/ 300] TrainLoss = 9.917 DevLoss = 0.1417 TrainTime = 82.5449s DevTime = 11.0665s
+INFO:root:Epoch = [221/300] Iter = [   0/  70] Loss = 9.87 Avg Loss = 9.87 rec_loss: 0.09419, vel_loss: 8.006, acc_loss: 1.77
+INFO:root:Epoch = [ 221/ 300] TrainLoss = 9.855 DevLoss = 0.1425 TrainTime = 82.6310s DevTime = 10.6470s
+INFO:root:Epoch = [222/300] Iter = [   0/  70] Loss = 9.807 Avg Loss = 9.807 rec_loss: 0.09124, vel_loss: 7.959, acc_loss: 1.756
+INFO:root:Epoch = [ 222/ 300] TrainLoss = 9.794 DevLoss = 0.1429 TrainTime = 82.1331s DevTime = 10.6106s
+INFO:root:Epoch = [223/300] Iter = [   0/  70] Loss = 9.749 Avg Loss = 9.749 rec_loss: 0.09404, vel_loss: 7.913, acc_loss: 1.742
+INFO:root:Epoch = [ 223/ 300] TrainLoss = 9.735 DevLoss = 0.1431 TrainTime = 83.8120s DevTime = 11.1662s
+INFO:root:Epoch = [224/300] Iter = [   0/  70] Loss = 9.694 Avg Loss = 9.694 rec_loss: 0.09883, vel_loss: 7.867, acc_loss: 1.729
+INFO:root:Epoch = [ 224/ 300] TrainLoss = 9.677 DevLoss = 0.1423 TrainTime = 83.4870s DevTime = 10.7306s
+INFO:root:Epoch = [225/300] Iter = [   0/  70] Loss = 9.641 Avg Loss = 9.641 rec_loss: 0.1056, vel_loss: 7.82, acc_loss: 1.715
+INFO:root:Epoch = [ 225/ 300] TrainLoss = 9.62 DevLoss = 0.1409 TrainTime = 83.5896s DevTime = 10.6223s
+INFO:root:Epoch = [226/300] Iter = [   0/  70] Loss = 9.576 Avg Loss = 9.576 rec_loss: 0.1, vel_loss: 7.774, acc_loss: 1.702
+INFO:root:Epoch = [ 226/ 300] TrainLoss = 9.558 DevLoss = 0.1451 TrainTime = 82.9898s DevTime = 10.4380s
+INFO:root:Epoch = [227/300] Iter = [   0/  70] Loss = 9.516 Avg Loss = 9.516 rec_loss: 0.1004, vel_loss: 7.728, acc_loss: 1.688
+INFO:root:Epoch = [ 227/ 300] TrainLoss = 9.498 DevLoss = 0.1419 TrainTime = 84.0812s DevTime = 10.9193s
+INFO:root:Epoch = [228/300] Iter = [   0/  70] Loss = 9.444 Avg Loss = 9.444 rec_loss: 0.08821, vel_loss: 7.681, acc_loss: 1.675
+INFO:root:Epoch = [ 228/ 300] TrainLoss = 9.432 DevLoss = 0.1422 TrainTime = 82.2811s DevTime = 11.1348s
+INFO:root:Epoch = [229/300] Iter = [   0/  70] Loss = 9.392 Avg Loss = 9.392 rec_loss: 0.09596, vel_loss: 7.635, acc_loss: 1.661
+INFO:root:Epoch = [ 229/ 300] TrainLoss = 9.376 DevLoss = 0.1433 TrainTime = 81.9840s DevTime = 10.6197s
+INFO:root:Epoch = [230/300] Iter = [   0/  70] Loss = 9.333 Avg Loss = 9.333 rec_loss: 0.09672, vel_loss: 7.588, acc_loss: 1.648
+INFO:root:Epoch = [ 230/ 300] TrainLoss = 9.317 DevLoss = 0.1428 TrainTime = 84.5534s DevTime = 11.1575s
+INFO:root:Epoch = [231/300] Iter = [   0/  70] Loss = 9.272 Avg Loss = 9.272 rec_loss: 0.0955, vel_loss: 7.542, acc_loss: 1.635
+INFO:root:Epoch = [ 231/ 300] TrainLoss = 9.257 DevLoss = 0.1427 TrainTime = 80.6857s DevTime = 11.1653s
+INFO:root:Epoch = [232/300] Iter = [   0/  70] Loss = 9.215 Avg Loss = 9.215 rec_loss: 0.0979, vel_loss: 7.496, acc_loss: 1.622
+INFO:root:Epoch = [ 232/ 300] TrainLoss = 9.199 DevLoss = 0.1434 TrainTime = 83.1384s DevTime = 11.1748s
+INFO:root:Epoch = [233/300] Iter = [   0/  70] Loss = 9.153 Avg Loss = 9.153 rec_loss: 0.09541, vel_loss: 7.449, acc_loss: 1.609
+INFO:root:Epoch = [ 233/ 300] TrainLoss = 9.138 DevLoss = 0.142 TrainTime = 84.2379s DevTime = 11.1518s
+INFO:root:Epoch = [234/300] Iter = [   0/  70] Loss = 9.093 Avg Loss = 9.093 rec_loss: 0.09457, vel_loss: 7.403, acc_loss: 1.596
+INFO:root:Epoch = [ 234/ 300] TrainLoss = 9.078 DevLoss = 0.1428 TrainTime = 83.5340s DevTime = 10.4020s
+INFO:root:Epoch = [235/300] Iter = [   0/  70] Loss = 9.044 Avg Loss = 9.044 rec_loss: 0.1037, vel_loss: 7.357, acc_loss: 1.583
+INFO:root:Epoch = [ 235/ 300] TrainLoss = 9.024 DevLoss = 0.144 TrainTime = 82.4925s DevTime = 11.2201s
+INFO:root:Epoch = [236/300] Iter = [   0/  70] Loss = 8.976 Avg Loss = 8.976 rec_loss: 0.09542, vel_loss: 7.311, acc_loss: 1.57
+INFO:root:Epoch = [ 236/ 300] TrainLoss = 8.961 DevLoss = 0.1467 TrainTime = 84.1775s DevTime = 10.5101s
+INFO:root:Epoch = [237/300] Iter = [   0/  70] Loss = 8.922 Avg Loss = 8.922 rec_loss: 0.09989, vel_loss: 7.265, acc_loss: 1.558
+INFO:root:Epoch = [ 237/ 300] TrainLoss = 8.905 DevLoss = 0.1463 TrainTime = 81.6097s DevTime = 10.6676s
+INFO:root:Epoch = [238/300] Iter = [   0/  70] Loss = 8.868 Avg Loss = 8.868 rec_loss: 0.105, vel_loss: 7.218, acc_loss: 1.545
+INFO:root:Epoch = [ 238/ 300] TrainLoss = 8.849 DevLoss = 0.1435 TrainTime = 83.3690s DevTime = 11.2296s
+INFO:root:Epoch = [239/300] Iter = [   0/  70] Loss = 8.8 Avg Loss = 8.8 rec_loss: 0.09549, vel_loss: 7.172, acc_loss: 1.532
+INFO:root:Epoch = [ 239/ 300] TrainLoss = 8.785 DevLoss = 0.1447 TrainTime = 83.3492s DevTime = 11.1411s
+INFO:root:Epoch = [240/300] Iter = [   0/  70] Loss = 8.751 Avg Loss = 8.751 rec_loss: 0.1057, vel_loss: 7.126, acc_loss: 1.52
+INFO:root:Epoch = [ 240/ 300] TrainLoss = 8.732 DevLoss = 0.1471 TrainTime = 82.9292s DevTime = 11.1900s
+INFO:root:Epoch = [241/300] Iter = [   0/  70] Loss = 8.682 Avg Loss = 8.682 rec_loss: 0.09513, vel_loss: 7.08, acc_loss: 1.507
+INFO:root:Epoch = [ 241/ 300] TrainLoss = 8.667 DevLoss = 0.1454 TrainTime = 82.1179s DevTime = 11.1361s
+INFO:root:Epoch = [242/300] Iter = [   0/  70] Loss = 8.624 Avg Loss = 8.624 rec_loss: 0.09591, vel_loss: 7.033, acc_loss: 1.495
+INFO:root:Epoch = [ 242/ 300] TrainLoss = 8.609 DevLoss = 0.1441 TrainTime = 82.6256s DevTime = 11.3468s
+INFO:root:Epoch = [243/300] Iter = [   0/  70] Loss = 8.568 Avg Loss = 8.568 rec_loss: 0.09845, vel_loss: 6.987, acc_loss: 1.482
+INFO:root:Epoch = [ 243/ 300] TrainLoss = 8.551 DevLoss = 0.1445 TrainTime = 82.2976s DevTime = 10.8686s
+INFO:root:Epoch = [244/300] Iter = [   0/  70] Loss = 8.516 Avg Loss = 8.516 rec_loss: 0.1047, vel_loss: 6.941, acc_loss: 1.47
+INFO:root:Epoch = [ 244/ 300] TrainLoss = 8.496 DevLoss = 0.1447 TrainTime = 84.1768s DevTime = 11.0955s
+INFO:root:Epoch = [245/300] Iter = [   0/  70] Loss = 8.448 Avg Loss = 8.448 rec_loss: 0.09507, vel_loss: 6.895, acc_loss: 1.457
+INFO:root:Epoch = [ 245/ 300] TrainLoss = 8.433 DevLoss = 0.1446 TrainTime = 82.5869s DevTime = 10.4498s
+INFO:root:Epoch = [246/300] Iter = [   0/  70] Loss = 8.396 Avg Loss = 8.396 rec_loss: 0.102, vel_loss: 6.849, acc_loss: 1.445
+INFO:root:Epoch = [ 246/ 300] TrainLoss = 8.378 DevLoss = 0.1444 TrainTime = 82.7621s DevTime = 10.6310s
+INFO:root:Epoch = [247/300] Iter = [   0/  70] Loss = 8.328 Avg Loss = 8.328 rec_loss: 0.09287, vel_loss: 6.803, acc_loss: 1.433
+INFO:root:Epoch = [ 247/ 300] TrainLoss = 8.315 DevLoss = 0.144 TrainTime = 83.9630s DevTime = 10.7335s
+INFO:root:Epoch = [248/300] Iter = [   0/  70] Loss = 8.278 Avg Loss = 8.278 rec_loss: 0.1012, vel_loss: 6.757, acc_loss: 1.42
+INFO:root:Epoch = [ 248/ 300] TrainLoss = 8.261 DevLoss = 0.1471 TrainTime = 82.0900s DevTime = 11.1823s
+INFO:root:Epoch = [249/300] Iter = [   0/  70] Loss = 8.22 Avg Loss = 8.22 rec_loss: 0.1017, vel_loss: 6.71, acc_loss: 1.408
+INFO:root:Epoch = [ 249/ 300] TrainLoss = 8.203 DevLoss = 0.146 TrainTime = 82.8169s DevTime = 10.9996s
+INFO:root:Epoch = [250/300] Iter = [   0/  70] Loss = 8.161 Avg Loss = 8.161 rec_loss: 0.1004, vel_loss: 6.664, acc_loss: 1.396
+INFO:root:Epoch = [ 250/ 300] TrainLoss = 8.144 DevLoss = 0.1467 TrainTime = 81.8299s DevTime = 10.5986s
+INFO:root:Epoch = [251/300] Iter = [   0/  70] Loss = 8.106 Avg Loss = 8.106 rec_loss: 0.1041, vel_loss: 6.618, acc_loss: 1.384
+INFO:root:Epoch = [ 251/ 300] TrainLoss = 8.087 DevLoss = 0.1473 TrainTime = 81.4773s DevTime = 11.3297s
+INFO:root:Epoch = [252/300] Iter = [   0/  70] Loss = 8.046 Avg Loss = 8.046 rec_loss: 0.1022, vel_loss: 6.572, acc_loss: 1.372
+INFO:root:Epoch = [ 252/ 300] TrainLoss = 8.028 DevLoss = 0.1467 TrainTime = 82.5377s DevTime = 10.7398s
+INFO:root:Epoch = [253/300] Iter = [   0/  70] Loss = 7.983 Avg Loss = 7.983 rec_loss: 0.09753, vel_loss: 6.526, acc_loss: 1.36
+INFO:root:Epoch = [ 253/ 300] TrainLoss = 7.967 DevLoss = 0.1446 TrainTime = 82.3432s DevTime = 11.0552s
+INFO:root:Epoch = [254/300] Iter = [   0/  70] Loss = 7.925 Avg Loss = 7.925 rec_loss: 0.09732, vel_loss: 6.48, acc_loss: 1.348
+INFO:root:Epoch = [ 254/ 300] TrainLoss = 7.909 DevLoss = 0.1435 TrainTime = 82.6871s DevTime = 10.7022s
+INFO:root:Epoch = [255/300] Iter = [   0/  70] Loss = 7.859 Avg Loss = 7.859 rec_loss: 0.08882, vel_loss: 6.434, acc_loss: 1.336
+INFO:root:Epoch = [ 255/ 300] TrainLoss = 7.847 DevLoss = 0.1442 TrainTime = 83.3303s DevTime = 10.9424s
+INFO:root:Epoch = [256/300] Iter = [   0/  70] Loss = 7.805 Avg Loss = 7.805 rec_loss: 0.09277, vel_loss: 6.388, acc_loss: 1.324
+INFO:root:Epoch = [ 256/ 300] TrainLoss = 7.791 DevLoss = 0.145 TrainTime = 84.0674s DevTime = 10.6563s
+INFO:root:Epoch = [257/300] Iter = [   0/  70] Loss = 7.751 Avg Loss = 7.751 rec_loss: 0.09762, vel_loss: 6.341, acc_loss: 1.312
+INFO:root:Epoch = [ 257/ 300] TrainLoss = 7.735 DevLoss = 0.1436 TrainTime = 82.5295s DevTime = 11.0319s
+INFO:root:Epoch = [258/300] Iter = [   0/  70] Loss = 7.69 Avg Loss = 7.69 rec_loss: 0.09475, vel_loss: 6.295, acc_loss: 1.3
+INFO:root:Epoch = [ 258/ 300] TrainLoss = 7.675 DevLoss = 0.1445 TrainTime = 82.3968s DevTime = 11.5903s
+INFO:root:Epoch = [259/300] Iter = [   0/  70] Loss = 7.633 Avg Loss = 7.633 rec_loss: 0.09537, vel_loss: 6.249, acc_loss: 1.289
+INFO:root:Epoch = [ 259/ 300] TrainLoss = 7.618 DevLoss = 0.144 TrainTime = 82.1398s DevTime = 11.1933s
+INFO:root:Epoch = [260/300] Iter = [   0/  70] Loss = 7.577 Avg Loss = 7.577 rec_loss: 0.09679, vel_loss: 6.203, acc_loss: 1.277
+INFO:root:Epoch = [ 260/ 300] TrainLoss = 7.56 DevLoss = 0.1467 TrainTime = 83.3774s DevTime = 10.5883s
+INFO:root:Epoch = [261/300] Iter = [   0/  70] Loss = 7.515 Avg Loss = 7.515 rec_loss: 0.0933, vel_loss: 6.157, acc_loss: 1.265
+INFO:root:Epoch = [ 261/ 300] TrainLoss = 7.501 DevLoss = 0.1446 TrainTime = 83.9724s DevTime = 10.7090s
+INFO:root:Epoch = [262/300] Iter = [   0/  70] Loss = 7.455 Avg Loss = 7.455 rec_loss: 0.09114, vel_loss: 6.111, acc_loss: 1.253
+INFO:root:Epoch = [ 262/ 300] TrainLoss = 7.441 DevLoss = 0.1442 TrainTime = 83.4240s DevTime = 10.7353s
+INFO:root:Epoch = [263/300] Iter = [   0/  70] Loss = 7.404 Avg Loss = 7.404 rec_loss: 0.09812, vel_loss: 6.065, acc_loss: 1.242
+INFO:root:Epoch = [ 263/ 300] TrainLoss = 7.387 DevLoss = 0.144 TrainTime = 83.8617s DevTime = 11.1644s
+INFO:root:Epoch = [264/300] Iter = [   0/  70] Loss = 7.341 Avg Loss = 7.341 rec_loss: 0.09203, vel_loss: 6.019, acc_loss: 1.23
+INFO:root:Epoch = [ 264/ 300] TrainLoss = 7.326 DevLoss = 0.1442 TrainTime = 82.4860s DevTime = 10.6208s
+INFO:root:Epoch = [265/300] Iter = [   0/  70] Loss = 7.287 Avg Loss = 7.287 rec_loss: 0.09617, vel_loss: 5.973, acc_loss: 1.218
+INFO:root:Epoch = [ 265/ 300] TrainLoss = 7.271 DevLoss = 0.1443 TrainTime = 82.4304s DevTime = 11.2272s
+INFO:root:Epoch = [266/300] Iter = [   0/  70] Loss = 7.229 Avg Loss = 7.229 rec_loss: 0.09521, vel_loss: 5.927, acc_loss: 1.207
+INFO:root:Epoch = [ 266/ 300] TrainLoss = 7.213 DevLoss = 0.144 TrainTime = 84.1448s DevTime = 10.6242s
+INFO:root:Epoch = [267/300] Iter = [   0/  70] Loss = 7.168 Avg Loss = 7.168 rec_loss: 0.09173, vel_loss: 5.881, acc_loss: 1.195
+INFO:root:Epoch = [ 267/ 300] TrainLoss = 7.154 DevLoss = 0.1433 TrainTime = 83.2986s DevTime = 11.2435s
+INFO:root:Epoch = [268/300] Iter = [   0/  70] Loss = 7.114 Avg Loss = 7.114 rec_loss: 0.09597, vel_loss: 5.835, acc_loss: 1.184
+INFO:root:Epoch = [ 268/ 300] TrainLoss = 7.099 DevLoss = 0.1441 TrainTime = 81.4612s DevTime = 10.7409s
+INFO:root:Epoch = [269/300] Iter = [   0/  70] Loss = 7.057 Avg Loss = 7.057 rec_loss: 0.09615, vel_loss: 5.789, acc_loss: 1.173
+INFO:root:Epoch = [ 269/ 300] TrainLoss = 7.041 DevLoss = 0.146 TrainTime = 83.4036s DevTime = 10.6878s
+INFO:root:Epoch = [270/300] Iter = [   0/  70] Loss = 6.999 Avg Loss = 6.999 rec_loss: 0.0949, vel_loss: 5.743, acc_loss: 1.161
+INFO:root:Epoch = [ 270/ 300] TrainLoss = 6.983 DevLoss = 0.1445 TrainTime = 83.0804s DevTime = 10.9046s
+INFO:root:Epoch = [271/300] Iter = [   0/  70] Loss = 6.945 Avg Loss = 6.945 rec_loss: 0.09876, vel_loss: 5.697, acc_loss: 1.15
+INFO:root:Epoch = [ 271/ 300] TrainLoss = 6.928 DevLoss = 0.1435 TrainTime = 82.7006s DevTime = 10.8900s
+INFO:root:Epoch = [272/300] Iter = [   0/  70] Loss = 6.882 Avg Loss = 6.882 rec_loss: 0.09224, vel_loss: 5.651, acc_loss: 1.139
+INFO:root:Epoch = [ 272/ 300] TrainLoss = 6.867 DevLoss = 0.1441 TrainTime = 83.2360s DevTime = 10.6797s
+INFO:root:Epoch = [273/300] Iter = [   0/  70] Loss = 6.83 Avg Loss = 6.83 rec_loss: 0.09738, vel_loss: 5.605, acc_loss: 1.127
+INFO:root:Epoch = [ 273/ 300] TrainLoss = 6.813 DevLoss = 0.1437 TrainTime = 82.1120s DevTime = 11.2853s
+INFO:root:Epoch = [274/300] Iter = [   0/  70] Loss = 6.772 Avg Loss = 6.772 rec_loss: 0.09642, vel_loss: 5.559, acc_loss: 1.116
+INFO:root:Epoch = [ 274/ 300] TrainLoss = 6.755 DevLoss = 0.1436 TrainTime = 82.3201s DevTime = 10.7477s
+INFO:root:Epoch = [275/300] Iter = [   0/  70] Loss = 6.713 Avg Loss = 6.713 rec_loss: 0.0952, vel_loss: 5.513, acc_loss: 1.105
+INFO:root:Epoch = [ 275/ 300] TrainLoss = 6.698 DevLoss = 0.1444 TrainTime = 82.2459s DevTime = 11.1362s
+INFO:root:Epoch = [276/300] Iter = [   0/  70] Loss = 6.659 Avg Loss = 6.659 rec_loss: 0.09834, vel_loss: 5.467, acc_loss: 1.094
+INFO:root:Epoch = [ 276/ 300] TrainLoss = 6.642 DevLoss = 0.1432 TrainTime = 83.3419s DevTime = 11.4347s
+INFO:root:Epoch = [277/300] Iter = [   0/  70] Loss = 6.604 Avg Loss = 6.604 rec_loss: 0.1001, vel_loss: 5.421, acc_loss: 1.083
+INFO:root:Epoch = [ 277/ 300] TrainLoss = 6.586 DevLoss = 0.1433 TrainTime = 83.6393s DevTime = 11.1829s
+INFO:root:Epoch = [278/300] Iter = [   0/  70] Loss = 6.538 Avg Loss = 6.538 rec_loss: 0.09106, vel_loss: 5.375, acc_loss: 1.072
+INFO:root:Epoch = [ 278/ 300] TrainLoss = 6.524 DevLoss = 0.1446 TrainTime = 83.7811s DevTime = 10.8485s
+INFO:root:Epoch = [279/300] Iter = [   0/  70] Loss = 6.482 Avg Loss = 6.482 rec_loss: 0.09184, vel_loss: 5.329, acc_loss: 1.061
+INFO:root:Epoch = [ 279/ 300] TrainLoss = 6.468 DevLoss = 0.1438 TrainTime = 83.7521s DevTime = 10.7914s
+INFO:root:Epoch = [280/300] Iter = [   0/  70] Loss = 6.431 Avg Loss = 6.431 rec_loss: 0.09781, vel_loss: 5.284, acc_loss: 1.05
+INFO:root:Epoch = [ 280/ 300] TrainLoss = 6.414 DevLoss = 0.1444 TrainTime = 83.1747s DevTime = 10.9376s
+INFO:root:Epoch = [281/300] Iter = [   0/  70] Loss = 6.368 Avg Loss = 6.368 rec_loss: 0.09229, vel_loss: 5.238, acc_loss: 1.039
+INFO:root:Epoch = [ 281/ 300] TrainLoss = 6.354 DevLoss = 0.1434 TrainTime = 83.5518s DevTime = 10.6356s
+INFO:root:Epoch = [282/300] Iter = [   0/  70] Loss = 6.31 Avg Loss = 6.31 rec_loss: 0.09067, vel_loss: 5.192, acc_loss: 1.028
+INFO:root:Epoch = [ 282/ 300] TrainLoss = 6.297 DevLoss = 0.144 TrainTime = 83.3631s DevTime = 11.1143s
+INFO:root:Epoch = [283/300] Iter = [   0/  70] Loss = 6.254 Avg Loss = 6.254 rec_loss: 0.09153, vel_loss: 5.146, acc_loss: 1.017
+INFO:root:Epoch = [ 283/ 300] TrainLoss = 6.241 DevLoss = 0.144 TrainTime = 83.1385s DevTime = 11.2336s
+INFO:root:Epoch = [284/300] Iter = [   0/  70] Loss = 6.205 Avg Loss = 6.205 rec_loss: 0.09904, vel_loss: 5.1, acc_loss: 1.006
+INFO:root:Epoch = [ 284/ 300] TrainLoss = 6.188 DevLoss = 0.1435 TrainTime = 84.0405s DevTime = 11.2762s
+INFO:root:Epoch = [285/300] Iter = [   0/  70] Loss = 6.147 Avg Loss = 6.147 rec_loss: 0.0982, vel_loss: 5.054, acc_loss: 0.9947
+INFO:root:Epoch = [ 285/ 300] TrainLoss = 6.131 DevLoss = 0.1451 TrainTime = 81.6038s DevTime = 10.6246s
+INFO:root:Epoch = [286/300] Iter = [   0/  70] Loss = 6.092 Avg Loss = 6.092 rec_loss: 0.09966, vel_loss: 5.008, acc_loss: 0.9839
+INFO:root:Epoch = [ 286/ 300] TrainLoss = 6.075 DevLoss = 0.1442 TrainTime = 82.4634s DevTime = 11.0665s
+INFO:root:Epoch = [287/300] Iter = [   0/  70] Loss = 6.039 Avg Loss = 6.039 rec_loss: 0.1036, vel_loss: 4.963, acc_loss: 0.9732
+INFO:root:Epoch = [ 287/ 300] TrainLoss = 6.021 DevLoss = 0.1465 TrainTime = 84.2644s DevTime = 11.3044s
+INFO:root:Epoch = [288/300] Iter = [   0/  70] Loss = 5.984 Avg Loss = 5.984 rec_loss: 0.1049, vel_loss: 4.917, acc_loss: 0.9624
+INFO:root:Epoch = [ 288/ 300] TrainLoss = 5.965 DevLoss = 0.1476 TrainTime = 83.1533s DevTime = 10.7323s
+INFO:root:Epoch = [289/300] Iter = [   0/  70] Loss = 5.916 Avg Loss = 5.916 rec_loss: 0.09356, vel_loss: 4.871, acc_loss: 0.9517
+INFO:root:Epoch = [ 289/ 300] TrainLoss = 5.903 DevLoss = 0.145 TrainTime = 82.5244s DevTime = 11.1049s
+INFO:root:Epoch = [290/300] Iter = [   0/  70] Loss = 5.863 Avg Loss = 5.863 rec_loss: 0.09713, vel_loss: 4.825, acc_loss: 0.9413
+INFO:root:Epoch = [ 290/ 300] TrainLoss = 5.848 DevLoss = 0.1463 TrainTime = 83.2998s DevTime = 10.5477s
+INFO:root:Epoch = [291/300] Iter = [   0/  70] Loss = 5.812 Avg Loss = 5.812 rec_loss: 0.1018, vel_loss: 4.779, acc_loss: 0.931
+INFO:root:Epoch = [ 291/ 300] TrainLoss = 5.794 DevLoss = 0.1467 TrainTime = 82.9989s DevTime = 10.8375s
+INFO:root:Epoch = [292/300] Iter = [   0/  70] Loss = 5.75 Avg Loss = 5.75 rec_loss: 0.09626, vel_loss: 4.733, acc_loss: 0.9206
+INFO:root:Epoch = [ 292/ 300] TrainLoss = 5.735 DevLoss = 0.1466 TrainTime = 82.2280s DevTime = 10.5688s
+INFO:root:Epoch = [293/300] Iter = [   0/  70] Loss = 5.698 Avg Loss = 5.698 rec_loss: 0.1005, vel_loss: 4.687, acc_loss: 0.9105
+INFO:root:Epoch = [ 293/ 300] TrainLoss = 5.681 DevLoss = 0.1466 TrainTime = 81.8800s DevTime = 11.1138s
+INFO:root:Epoch = [294/300] Iter = [   0/  70] Loss = 5.639 Avg Loss = 5.639 rec_loss: 0.09765, vel_loss: 4.641, acc_loss: 0.9002
+INFO:root:Epoch = [ 294/ 300] TrainLoss = 5.623 DevLoss = 0.1462 TrainTime = 82.1529s DevTime = 10.7419s
+INFO:root:Epoch = [295/300] Iter = [   0/  70] Loss = 5.576 Avg Loss = 5.576 rec_loss: 0.09077, vel_loss: 4.595, acc_loss: 0.89
+INFO:root:Epoch = [ 295/ 300] TrainLoss = 5.563 DevLoss = 0.148 TrainTime = 83.6398s DevTime = 10.6384s
+INFO:root:Epoch = [296/300] Iter = [   0/  70] Loss = 5.523 Avg Loss = 5.523 rec_loss: 0.09369, vel_loss: 4.549, acc_loss: 0.8798
+INFO:root:Epoch = [ 296/ 300] TrainLoss = 5.509 DevLoss = 0.1484 TrainTime = 82.8645s DevTime = 10.7651s
+INFO:root:Epoch = [297/300] Iter = [   0/  70] Loss = 5.465 Avg Loss = 5.465 rec_loss: 0.09266, vel_loss: 4.503, acc_loss: 0.8697
+INFO:root:Epoch = [ 297/ 300] TrainLoss = 5.452 DevLoss = 0.1467 TrainTime = 82.9022s DevTime = 10.9220s
+INFO:root:Epoch = [298/300] Iter = [   0/  70] Loss = 5.409 Avg Loss = 5.409 rec_loss: 0.0925, vel_loss: 4.457, acc_loss: 0.8599
+INFO:root:Epoch = [ 298/ 300] TrainLoss = 5.395 DevLoss = 0.1462 TrainTime = 82.0205s DevTime = 11.2543s
+INFO:root:Epoch = [299/300] Iter = [   0/  70] Loss = 5.358 Avg Loss = 5.358 rec_loss: 0.09688, vel_loss: 4.411, acc_loss: 0.8501
+INFO:root:Epoch = [ 299/ 300] TrainLoss = 5.342 DevLoss = 0.1469 TrainTime = 82.1301s DevTime = 10.6374s

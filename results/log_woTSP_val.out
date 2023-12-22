@@ -1,0 +1,8 @@
+cuda
+/mnt/shared/home/b31xs3/PILOT/summary/16/radial_0.001_0.1_0.1/rec
+/mnt/shared/home/b31xs3/PILOT/summary/16/radial_0.001_0.1_0.1/rec/file1000058.h5
+/mnt/shared/home/b31xs3/PILOT/summary/16/radial_0.001_0.1_0.1/rec/file1000089.h5
+/mnt/shared/home/b31xs3/PILOT/summary/16/radial_0.001_0.1_0.1/rec/file1000109.h5
+/mnt/shared/home/b31xs3/PILOT/summary/16/radial_0.001_0.1_0.1/rec/file1000117.h5
+MSE = 0.03025 +/- 0.0145 NMSE = 1.008 +/- 0.6987 PSNR = 15.29 +/- 2.069 SSIM = 0.5703 +/- 0.1002
+cuda
